@@ -1,0 +1,38 @@
+We are going to create a personal development plan/course for me, a senior .NET backend engineer.
+The plan will look like a course, and it will have three levels; Topics, Chapters and Lessons.
+We will create one MD document to list the topics, and add a brief explanation for each topic; what does it contain, why is it important, and everything else that is relevant on this high level.
+We will create one MD document for each topic, that contains more details, and lists the chapters within the given topic, adding a small description to each chapter.
+Later, we will create one MD document for each lesson, containing all details and materials, but not for now.
+
+For now, create the top two level mentioned above, based on the following criteria:
+ I am an experienced .NET developer, who is proficient in C#, and the .net ecosystem, but I want to keep learning (e.g. new features, new tools)
+- I want to learn about higher, architectural concepts as well, to go beyond the senior dev level
+- I want to learn technologies that are both current, and marketable.
+- I want to learn things that are vendor-agnostic, so no specific AWS or Azure technologies
+- I want to learn things related to hosting and maintaining applications in custom environments (e.g. containerization)
+- I want to learn more about traceability and observability, but again, in an open, vendor-agnostic manner.
+- I want ot learn more about Linux (I have a basic knowledge about Linux-related things I got from home lab setups and configurations, but I would like to learn more serious things)
+- I have a basic understanding about SQL, but that is a bit of a dark spot for me, I would like to learn about the more advanced features and concepts (generic SQL and PostgreSQL)
+- I have a basic understanding about noSQL databases, but I would like to learn more. I would chose one that is free and open source, and well-estabilished in the community
+- I always prefer open, free solutions above proprietary ones
+
+This list is not exhaustive, just a direction and a hint for what I am going for, so add any topic that might be relevant for above-senior backend engineering levels. For that, use web search, and look for topics in forums, websites, and existing training materials.
+
+Create one file for the root, as an overview, and create folders for the topics, and create their MD files into them. Use the kebab-case naming convention.
+
+Create folders for each chapter in the first topic. Create the lessons for each chapter in the first topic. Each lesson should take maximum 45 minutes to complete. Include materials (sites, blogs, videos) in the lessons. Make sure that the materials are available by validating them by loading the pages. Lessons can be made up by external materials alone, if they are applicable and good, or can be a part of the materials.
+
+
+
+
+Create a HTML-CSS-JS based site for the materials. This site should use hierarchy of the MD files and folders, and show a tree view on the left of the page, while showing the materials on the rest of the page, like the generic documentation sites. The content should be shown by rendering the markdown files, not being copied to HTLMs. If a new folder/files is added, it should automatically appear if the website is reloaded. Use applicable JS libraries if needed by loading them from cdnjs or similar. The website should have a light/dark mode switch. The content rendering should handle extended markdown syntaxes, and support code snippets with different languages with syntax highlighting (use libraries for these, there should be some available). Put the website's source files (ideally a single HTLM, a single JS file, and a single CSS file) into a folder called 'web-view'.
+
+
+
+Create the lessons for the nth topic's mth chapter. Do a thorough web search for the best materials, which can be videos, articles, posts of Microsoft learn pages. Make sure that the resources are available, especially in the case of videos. Take a look at the first topic's (Advanced .NET & C#) lessons, and follow all the patterns laid out there; the file and folder structure, the naming of the markdown files, the structure of the lessons, links for navigating to next lessons/chapters/topics. Use the current topic overview's 'Chapters' section to create the chapter overview, like in the example topic. This should also help with the chapter's structuring and the planning of the lessons. Once everything is done, update the topic's overview file by removing the relevant part of the 'Chapters' section, as the content of this part will be already in the chapter's overview file.
+
+Take a look at the nth chapter of the first topic. There are few lessons in that chapter. Generally there are at least four lessons to cover one chapter. Is comprehensive and detailed enough? If not, create additional lessons, following the patterns of the rest of the materials. Do a thorough web search for the best materials, which can be videos, articles, posts of Microsoft learn pages. Make sure that the resources are available, especially in the case of videos. Take a look at the 5th topic's lessons, and follow all the patterns laid out there; the file and folder structure, the naming of the markdown files, the structure of the lessons, links for navigating to next lessons/chapters/topics. Once everything is done, update the chapter's and the topic's overview files with the additional lessons.
+
+Extend or regenerate the lessons for the 6th topic's nth chapter. The lessons seem OK, but they are a bit shorter than ususal (e.g. the lessons in the 8th topic). Take a look at the existing lessons, review them, the materials they contain, and extend the lesson wherever needed. The lessons should be 600-800 line long markdown files. Do not make them longer than 950 lines, handle that as a hard limit. Make the different parts of the lessons concise, so the overall lessons respect this hard limit. After generating the content, do not trim if the hard limit is not exceeded. Follow all the existing conventions of the lesson structure. Important!: Once the lessons are updated, update the topic's main overview file with the necessary changes (might only be the duration) for the chapter. Minimize chat output through the process, just give very short progress updates and a very short summary at the end. 
+
+We are going to clean up the lesson files. Take the lessons from the 1st to the 5th topics, and: Remove the links at the end of each lesson that points to the next lesson/chapter/topic. Remove any non-lesson related summaries (chapter/topic). Remove any messages like "compelted xy" or "congratulations...". And look for similar things at the end of eaach lesson, that is not related to the lesson, and remove it.

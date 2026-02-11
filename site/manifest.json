@@ -1,0 +1,5028 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.01-modern-csharp-features/01.01.00-overview.md",
+            "type": "file",
+            "name": "01.01.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.01-modern-csharp-features/01.01.01-pattern-matching.md",
+            "type": "file",
+            "name": "01.01.01-pattern-matching.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.01-modern-csharp-features/01.01.02-records-immutability.md",
+            "type": "file",
+            "name": "01.01.02-records-immutability.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.01-modern-csharp-features/01.01.03-nullable-reference-types.md",
+            "type": "file",
+            "name": "01.01.03-nullable-reference-types.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.01-modern-csharp-features/01.01.04-primary-constructors.md",
+            "type": "file",
+            "name": "01.01.04-primary-constructors.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.01-modern-csharp-features",
+        "type": "folder",
+        "name": "01.01-modern-csharp-features"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.02-async-programming/01.02.00-overview.md",
+            "type": "file",
+            "name": "01.02.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.02-async-programming/01.02.01-task-fundamentals.md",
+            "type": "file",
+            "name": "01.02.01-task-fundamentals.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.02-async-programming/01.02.02-valuetask-performance.md",
+            "type": "file",
+            "name": "01.02.02-valuetask-performance.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.02-async-programming/01.02.03-async-streams.md",
+            "type": "file",
+            "name": "01.02.03-async-streams.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.02-async-programming/01.02.04-async-pitfalls.md",
+            "type": "file",
+            "name": "01.02.04-async-pitfalls.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.02-async-programming",
+        "type": "folder",
+        "name": "01.02-async-programming"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.03-high-performance-dotnet/01.03.00-overview.md",
+            "type": "file",
+            "name": "01.03.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.03-high-performance-dotnet/01.03.01-span-memory.md",
+            "type": "file",
+            "name": "01.03.01-span-memory.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.03-high-performance-dotnet/01.03.02-object-pooling.md",
+            "type": "file",
+            "name": "01.03.02-object-pooling.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.03-high-performance-dotnet/01.03.03-stack-allocation.md",
+            "type": "file",
+            "name": "01.03.03-stack-allocation.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.03-high-performance-dotnet/01.03.04-gc-tuning.md",
+            "type": "file",
+            "name": "01.03.04-gc-tuning.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.03-high-performance-dotnet",
+        "type": "folder",
+        "name": "01.03-high-performance-dotnet"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.04-runtime-internals/01.04.00-overview.md",
+            "type": "file",
+            "name": "01.04.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.04-runtime-internals/01.04.01-jit-compilation.md",
+            "type": "file",
+            "name": "01.04.01-jit-compilation.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.04-runtime-internals/01.04.02-assembly-loading.md",
+            "type": "file",
+            "name": "01.04.02-assembly-loading.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.04-runtime-internals/01.04.03-native-aot.md",
+            "type": "file",
+            "name": "01.04.03-native-aot.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.04-runtime-internals/01.04.04-memory-internals.md",
+            "type": "file",
+            "name": "01.04.04-memory-internals.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.04-runtime-internals/01.04.05-interop-pinvoke.md",
+            "type": "file",
+            "name": "01.04.05-interop-pinvoke.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.04-runtime-internals",
+        "type": "folder",
+        "name": "01.04-runtime-internals"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.05-source-generators/01.05.00-overview.md",
+            "type": "file",
+            "name": "01.05.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.05-source-generators/01.05.01-generator-fundamentals.md",
+            "type": "file",
+            "name": "01.05.01-generator-fundamentals.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.05-source-generators/01.05.02-creating-generators.md",
+            "type": "file",
+            "name": "01.05.02-creating-generators.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.05-source-generators/01.05.03-diagnostics-analyzers.md",
+            "type": "file",
+            "name": "01.05.03-diagnostics-analyzers.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.05-source-generators/01.05.04-real-world-patterns.md",
+            "type": "file",
+            "name": "01.05.04-real-world-patterns.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.05-source-generators/01.05.05-advanced-deployment.md",
+            "type": "file",
+            "name": "01.05.05-advanced-deployment.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.05-source-generators",
+        "type": "folder",
+        "name": "01.05-source-generators"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.06-modern-aspnet-core/01.06.00-overview.md",
+            "type": "file",
+            "name": "01.06.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.06-modern-aspnet-core/01.06.01-minimal-apis.md",
+            "type": "file",
+            "name": "01.06.01-minimal-apis.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.06-modern-aspnet-core/01.06.02-endpoint-filters.md",
+            "type": "file",
+            "name": "01.06.02-endpoint-filters.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.06-modern-aspnet-core/01.06.03-middleware-pipeline.md",
+            "type": "file",
+            "name": "01.06.03-middleware-pipeline.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.06-modern-aspnet-core/01.06.04-dependency-injection-configuration.md",
+            "type": "file",
+            "name": "01.06.04-dependency-injection-configuration.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.06-modern-aspnet-core/01.06.05-background-services.md",
+            "type": "file",
+            "name": "01.06.05-background-services.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.06-modern-aspnet-core",
+        "type": "folder",
+        "name": "01.06-modern-aspnet-core"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.07-grpc-communication/01.07.00-overview.md",
+            "type": "file",
+            "name": "01.07.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.07-grpc-communication/01.07.01-grpc-basics.md",
+            "type": "file",
+            "name": "01.07.01-grpc-basics.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.07-grpc-communication/01.07.02-grpc-streaming.md",
+            "type": "file",
+            "name": "01.07.02-grpc-streaming.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.07-grpc-communication/01.07.03-authentication-authorization.md",
+            "type": "file",
+            "name": "01.07.03-authentication-authorization.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.07-grpc-communication/01.07.04-interceptors-performance.md",
+            "type": "file",
+            "name": "01.07.04-interceptors-performance.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.07-grpc-communication/01.07.05-production-deployment.md",
+            "type": "file",
+            "name": "01.07.05-production-deployment.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.07-grpc-communication",
+        "type": "folder",
+        "name": "01.07-grpc-communication"
+      },
+      {
+        "children": [
+          {
+            "path": "01-advanced-dotnet/01.08-benchmarking-profiling/01.08.00-overview.md",
+            "type": "file",
+            "name": "01.08.00-overview.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.08-benchmarking-profiling/01.08.01-benchmarkdotnet.md",
+            "type": "file",
+            "name": "01.08.01-benchmarkdotnet.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.08-benchmarking-profiling/01.08.02-profiling.md",
+            "type": "file",
+            "name": "01.08.02-profiling.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.08-benchmarking-profiling/01.08.03-advanced-benchmarking.md",
+            "type": "file",
+            "name": "01.08.03-advanced-benchmarking.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.08-benchmarking-profiling/01.08.04-diagnostic-tools.md",
+            "type": "file",
+            "name": "01.08.04-diagnostic-tools.md"
+          },
+          {
+            "path": "01-advanced-dotnet/01.08-benchmarking-profiling/01.08.05-production-monitoring.md",
+            "type": "file",
+            "name": "01.08.05-production-monitoring.md"
+          }
+        ],
+        "path": "01-advanced-dotnet/01.08-benchmarking-profiling",
+        "type": "folder",
+        "name": "01.08-benchmarking-profiling"
+      },
+      {
+        "path": "01-advanced-dotnet/01-overview.md",
+        "type": "file",
+        "name": "01-overview.md"
+      }
+    ],
+    "path": "01-advanced-dotnet",
+    "type": "folder",
+    "name": "01-advanced-dotnet"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.01-solid-principles/02.01.00-overview.md",
+            "type": "file",
+            "name": "02.01.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.01-solid-principles/02.01.01-srp-architecture.md",
+            "type": "file",
+            "name": "02.01.01-srp-architecture.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.01-solid-principles/02.01.02-ocp-extensions.md",
+            "type": "file",
+            "name": "02.01.02-ocp-extensions.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.01-solid-principles/02.01.03-dip-containers.md",
+            "type": "file",
+            "name": "02.01.03-dip-containers.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.01-solid-principles/02.01.04-solid-vs-stupid.md",
+            "type": "file",
+            "name": "02.01.04-solid-vs-stupid.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.01-solid-principles",
+        "type": "folder",
+        "name": "02.01-solid-principles"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.02-domain-driven-design/02.02.00-overview.md",
+            "type": "file",
+            "name": "02.02.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.02-domain-driven-design/02.02.01-ubiquitous-language.md",
+            "type": "file",
+            "name": "02.02.01-ubiquitous-language.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.02-domain-driven-design/02.02.02-bounded-contexts.md",
+            "type": "file",
+            "name": "02.02.02-bounded-contexts.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.02-domain-driven-design/02.02.03-aggregates.md",
+            "type": "file",
+            "name": "02.02.03-aggregates.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.02-domain-driven-design/02.02.04-tactical-patterns.md",
+            "type": "file",
+            "name": "02.02.04-tactical-patterns.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.02-domain-driven-design",
+        "type": "folder",
+        "name": "02.02-domain-driven-design"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.03-clean-architecture/02.03.00-overview.md",
+            "type": "file",
+            "name": "02.03.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.03-clean-architecture/02.03.01-dependency-rule.md",
+            "type": "file",
+            "name": "02.03.01-dependency-rule.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.03-clean-architecture/02.03.02-clean-arch-dotnet.md",
+            "type": "file",
+            "name": "02.03.02-clean-arch-dotnet.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.03-clean-architecture/02.03.03-ports-adapters.md",
+            "type": "file",
+            "name": "02.03.03-ports-adapters.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.03-clean-architecture",
+        "type": "folder",
+        "name": "02.03-clean-architecture"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.04-cqrs-event-sourcing/02.04.00-overview.md",
+            "type": "file",
+            "name": "02.04.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.04-cqrs-event-sourcing/02.04.01-cqrs-fundamentals.md",
+            "type": "file",
+            "name": "02.04.01-cqrs-fundamentals.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.04-cqrs-event-sourcing/02.04.02-event-sourcing.md",
+            "type": "file",
+            "name": "02.04.02-event-sourcing.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.04-cqrs-event-sourcing/02.04.03-cqrs-implementation.md",
+            "type": "file",
+            "name": "02.04.03-cqrs-implementation.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.04-cqrs-event-sourcing",
+        "type": "folder",
+        "name": "02.04-cqrs-event-sourcing"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.05-creational-patterns/02.05.00-overview.md",
+            "type": "file",
+            "name": "02.05.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.05-creational-patterns/02.05.01-factory-patterns.md",
+            "type": "file",
+            "name": "02.05.01-factory-patterns.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.05-creational-patterns/02.05.02-builder-pattern.md",
+            "type": "file",
+            "name": "02.05.02-builder-pattern.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.05-creational-patterns/02.05.03-dependency-injection.md",
+            "type": "file",
+            "name": "02.05.03-dependency-injection.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.05-creational-patterns/02.05.04-object-pooling.md",
+            "type": "file",
+            "name": "02.05.04-object-pooling.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.05-creational-patterns",
+        "type": "folder",
+        "name": "02.05-creational-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.06-structural-patterns/02.06.00-overview.md",
+            "type": "file",
+            "name": "02.06.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.06-structural-patterns/02.06.01-adapter-bridge.md",
+            "type": "file",
+            "name": "02.06.01-adapter-bridge.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.06-structural-patterns/02.06.02-decorator-pattern.md",
+            "type": "file",
+            "name": "02.06.02-decorator-pattern.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.06-structural-patterns/02.06.03-facade-proxy.md",
+            "type": "file",
+            "name": "02.06.03-facade-proxy.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.06-structural-patterns",
+        "type": "folder",
+        "name": "02.06-structural-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.07-behavioral-patterns/02.07.00-overview.md",
+            "type": "file",
+            "name": "02.07.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.07-behavioral-patterns/02.07.01-strategy-template.md",
+            "type": "file",
+            "name": "02.07.01-strategy-template.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.07-behavioral-patterns/02.07.02-observer-events.md",
+            "type": "file",
+            "name": "02.07.02-observer-events.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.07-behavioral-patterns/02.07.03-command-mediatr.md",
+            "type": "file",
+            "name": "02.07.03-command-mediatr.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.07-behavioral-patterns/02.07.04-state-pattern.md",
+            "type": "file",
+            "name": "02.07.04-state-pattern.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.07-behavioral-patterns",
+        "type": "folder",
+        "name": "02.07-behavioral-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "02-architecture-patterns/02.08-anti-patterns/02.08.00-overview.md",
+            "type": "file",
+            "name": "02.08.00-overview.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.08-anti-patterns/02.08.01-architectural-antipatterns.md",
+            "type": "file",
+            "name": "02.08.01-architectural-antipatterns.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.08-anti-patterns/02.08.02-technical-debt.md",
+            "type": "file",
+            "name": "02.08.02-technical-debt.md"
+          },
+          {
+            "path": "02-architecture-patterns/02.08-anti-patterns/02.08.03-refactoring-strategies.md",
+            "type": "file",
+            "name": "02.08.03-refactoring-strategies.md"
+          }
+        ],
+        "path": "02-architecture-patterns/02.08-anti-patterns",
+        "type": "folder",
+        "name": "02.08-anti-patterns"
+      },
+      {
+        "path": "02-architecture-patterns/02-overview.md",
+        "type": "file",
+        "name": "02-overview.md"
+      }
+    ],
+    "path": "02-architecture-patterns",
+    "type": "folder",
+    "name": "02-architecture-patterns"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.01-distributed-systems-fundamentals/03.01.00-overview.md",
+            "type": "file",
+            "name": "03.01.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.01-distributed-systems-fundamentals/03.01.01-fallacies.md",
+            "type": "file",
+            "name": "03.01.01-fallacies.md"
+          },
+          {
+            "path": "03-distributed-systems/03.01-distributed-systems-fundamentals/03.01.02-cap-theorem.md",
+            "type": "file",
+            "name": "03.01.02-cap-theorem.md"
+          },
+          {
+            "path": "03-distributed-systems/03.01-distributed-systems-fundamentals/03.01.03-network-partitions.md",
+            "type": "file",
+            "name": "03.01.03-network-partitions.md"
+          },
+          {
+            "path": "03-distributed-systems/03.01-distributed-systems-fundamentals/03.01.04-time-and-ordering.md",
+            "type": "file",
+            "name": "03.01.04-time-and-ordering.md"
+          },
+          {
+            "path": "03-distributed-systems/03.01-distributed-systems-fundamentals/03.01.05-reliability-patterns.md",
+            "type": "file",
+            "name": "03.01.05-reliability-patterns.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.01-distributed-systems-fundamentals",
+        "type": "folder",
+        "name": "03.01-distributed-systems-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.02-consistency-models/03.02.00-overview.md",
+            "type": "file",
+            "name": "03.02.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.02-consistency-models/03.02.01-strong-consistency.md",
+            "type": "file",
+            "name": "03.02.01-strong-consistency.md"
+          },
+          {
+            "path": "03-distributed-systems/03.02-consistency-models/03.02.02-eventual-consistency.md",
+            "type": "file",
+            "name": "03.02.02-eventual-consistency.md"
+          },
+          {
+            "path": "03-distributed-systems/03.02-consistency-models/03.02.03-causal-consistency.md",
+            "type": "file",
+            "name": "03.02.03-causal-consistency.md"
+          },
+          {
+            "path": "03-distributed-systems/03.02-consistency-models/03.02.04-session-guarantees.md",
+            "type": "file",
+            "name": "03.02.04-session-guarantees.md"
+          },
+          {
+            "path": "03-distributed-systems/03.02-consistency-models/03.02.05-choosing-consistency.md",
+            "type": "file",
+            "name": "03.02.05-choosing-consistency.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.02-consistency-models",
+        "type": "folder",
+        "name": "03.02-consistency-models"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.03-microservices-architecture/03.03.00-overview.md",
+            "type": "file",
+            "name": "03.03.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.03-microservices-architecture/03.03.01-fundamentals.md",
+            "type": "file",
+            "name": "03.03.01-fundamentals.md"
+          },
+          {
+            "path": "03-distributed-systems/03.03-microservices-architecture/03.03.02-service-boundaries.md",
+            "type": "file",
+            "name": "03.03.02-service-boundaries.md"
+          },
+          {
+            "path": "03-distributed-systems/03.03-microservices-architecture/03.03.03-conways-law.md",
+            "type": "file",
+            "name": "03.03.03-conways-law.md"
+          },
+          {
+            "path": "03-distributed-systems/03.03-microservices-architecture/03.03.04-independence.md",
+            "type": "file",
+            "name": "03.03.04-independence.md"
+          },
+          {
+            "path": "03-distributed-systems/03.03-microservices-architecture/03.03.05-monolith-vs-microservices.md",
+            "type": "file",
+            "name": "03.03.05-monolith-vs-microservices.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.03-microservices-architecture",
+        "type": "folder",
+        "name": "03.03-microservices-architecture"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.04-service-decomposition/03.04.00-overview.md",
+            "type": "file",
+            "name": "03.04.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.04-service-decomposition/03.04.01-business-capability.md",
+            "type": "file",
+            "name": "03.04.01-business-capability.md"
+          },
+          {
+            "path": "03-distributed-systems/03.04-service-decomposition/03.04.02-bounded-contexts.md",
+            "type": "file",
+            "name": "03.04.02-bounded-contexts.md"
+          },
+          {
+            "path": "03-distributed-systems/03.04-service-decomposition/03.04.03-strangler-fig.md",
+            "type": "file",
+            "name": "03.04.03-strangler-fig.md"
+          },
+          {
+            "path": "03-distributed-systems/03.04-service-decomposition/03.04.04-database-decomposition.md",
+            "type": "file",
+            "name": "03.04.04-database-decomposition.md"
+          },
+          {
+            "path": "03-distributed-systems/03.04-service-decomposition/03.04.05-avoiding-pitfalls.md",
+            "type": "file",
+            "name": "03.04.05-avoiding-pitfalls.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.04-service-decomposition",
+        "type": "folder",
+        "name": "03.04-service-decomposition"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.05-inter-service-communication/03.05.00-overview.md",
+            "type": "file",
+            "name": "03.05.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.05-inter-service-communication/03.05.01-sync-vs-async.md",
+            "type": "file",
+            "name": "03.05.01-sync-vs-async.md"
+          },
+          {
+            "path": "03-distributed-systems/03.05-inter-service-communication/03.05.02-rest-grpc.md",
+            "type": "file",
+            "name": "03.05.02-rest-grpc.md"
+          },
+          {
+            "path": "03-distributed-systems/03.05-inter-service-communication/03.05.03-event-driven.md",
+            "type": "file",
+            "name": "03.05.03-event-driven.md"
+          },
+          {
+            "path": "03-distributed-systems/03.05-inter-service-communication/03.05.04-api-gateway-service-mesh.md",
+            "type": "file",
+            "name": "03.05.04-api-gateway-service-mesh.md"
+          },
+          {
+            "path": "03-distributed-systems/03.05-inter-service-communication/03.05.05-handling-failures.md",
+            "type": "file",
+            "name": "03.05.05-handling-failures.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.05-inter-service-communication",
+        "type": "folder",
+        "name": "03.05-inter-service-communication"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.06-data-management/03.06.00-overview.md",
+            "type": "file",
+            "name": "03.06.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.06-data-management/03.06.01-database-per-service.md",
+            "type": "file",
+            "name": "03.06.01-database-per-service.md"
+          },
+          {
+            "path": "03-distributed-systems/03.06-data-management/03.06.02-saga-pattern.md",
+            "type": "file",
+            "name": "03.06.02-saga-pattern.md"
+          },
+          {
+            "path": "03-distributed-systems/03.06-data-management/03.06.03-event-sourcing.md",
+            "type": "file",
+            "name": "03.06.03-event-sourcing.md"
+          },
+          {
+            "path": "03-distributed-systems/03.06-data-management/03.06.04-cqrs.md",
+            "type": "file",
+            "name": "03.06.04-cqrs.md"
+          },
+          {
+            "path": "03-distributed-systems/03.06-data-management/03.06.05-consistency-strategies.md",
+            "type": "file",
+            "name": "03.06.05-consistency-strategies.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.06-data-management",
+        "type": "folder",
+        "name": "03.06-data-management"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.07-resilience-patterns/03.07.00-overview.md",
+            "type": "file",
+            "name": "03.07.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.07-resilience-patterns/03.07.01-circuit-breaker.md",
+            "type": "file",
+            "name": "03.07.01-circuit-breaker.md"
+          },
+          {
+            "path": "03-distributed-systems/03.07-resilience-patterns/03.07.02-retry-patterns.md",
+            "type": "file",
+            "name": "03.07.02-retry-patterns.md"
+          },
+          {
+            "path": "03-distributed-systems/03.07-resilience-patterns/03.07.03-timeouts-bulkhead.md",
+            "type": "file",
+            "name": "03.07.03-timeouts-bulkhead.md"
+          },
+          {
+            "path": "03-distributed-systems/03.07-resilience-patterns/03.07.04-fallback-strategies.md",
+            "type": "file",
+            "name": "03.07.04-fallback-strategies.md"
+          },
+          {
+            "path": "03-distributed-systems/03.07-resilience-patterns/03.07.05-polly-library.md",
+            "type": "file",
+            "name": "03.07.05-polly-library.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.07-resilience-patterns",
+        "type": "folder",
+        "name": "03.07-resilience-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "03-distributed-systems/03.08-service-discovery/03.08.00-overview.md",
+            "type": "file",
+            "name": "03.08.00-overview.md"
+          },
+          {
+            "path": "03-distributed-systems/03.08-service-discovery/03.08.01-service-discovery-fundamentals.md",
+            "type": "file",
+            "name": "03.08.01-service-discovery-fundamentals.md"
+          },
+          {
+            "path": "03-distributed-systems/03.08-service-discovery/03.08.02-discovery-patterns.md",
+            "type": "file",
+            "name": "03.08.02-discovery-patterns.md"
+          },
+          {
+            "path": "03-distributed-systems/03.08-service-discovery/03.08.03-health-checking.md",
+            "type": "file",
+            "name": "03.08.03-health-checking.md"
+          },
+          {
+            "path": "03-distributed-systems/03.08-service-discovery/03.08.04-load-balancing.md",
+            "type": "file",
+            "name": "03.08.04-load-balancing.md"
+          },
+          {
+            "path": "03-distributed-systems/03.08-service-discovery/03.08.05-service-mesh.md",
+            "type": "file",
+            "name": "03.08.05-service-mesh.md"
+          }
+        ],
+        "path": "03-distributed-systems/03.08-service-discovery",
+        "type": "folder",
+        "name": "03.08-service-discovery"
+      },
+      {
+        "path": "03-distributed-systems/03-overview.md",
+        "type": "file",
+        "name": "03-overview.md"
+      }
+    ],
+    "path": "03-distributed-systems",
+    "type": "folder",
+    "name": "03-distributed-systems"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.01-event-driven-fundamentals/04.01.00-overview.md",
+            "type": "file",
+            "name": "04.01.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.01-event-driven-fundamentals/04.01.01-events-commands-queries.md",
+            "type": "file",
+            "name": "04.01.01-events-commands-queries.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.01-event-driven-fundamentals/04.01.02-temporal-decoupling.md",
+            "type": "file",
+            "name": "04.01.02-temporal-decoupling.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.01-event-driven-fundamentals/04.01.03-event-patterns.md",
+            "type": "file",
+            "name": "04.01.03-event-patterns.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.01-event-driven-fundamentals/04.01.04-event-vs-request-driven.md",
+            "type": "file",
+            "name": "04.01.04-event-vs-request-driven.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.01-event-driven-fundamentals/04.01.05-benefits-challenges.md",
+            "type": "file",
+            "name": "04.01.05-benefits-challenges.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.01-event-driven-fundamentals",
+        "type": "folder",
+        "name": "04.01-event-driven-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.02-message-brokers-overview/04.02.00-overview.md",
+            "type": "file",
+            "name": "04.02.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.02-message-brokers-overview/04.02.01-queues-vs-streams.md",
+            "type": "file",
+            "name": "04.02.01-queues-vs-streams.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.02-message-brokers-overview/04.02.02-push-vs-pull.md",
+            "type": "file",
+            "name": "04.02.02-push-vs-pull.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.02-message-brokers-overview/04.02.03-persistence-replay.md",
+            "type": "file",
+            "name": "04.02.03-persistence-replay.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.02-message-brokers-overview/04.02.04-ordering-guarantees.md",
+            "type": "file",
+            "name": "04.02.04-ordering-guarantees.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.02-message-brokers-overview/04.02.05-scalability.md",
+            "type": "file",
+            "name": "04.02.05-scalability.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.02-message-brokers-overview",
+        "type": "folder",
+        "name": "04.02-message-brokers-overview"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive/04.03.00-overview.md",
+            "type": "file",
+            "name": "04.03.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive/04.03.01-exchange-types-routing.md",
+            "type": "file",
+            "name": "04.03.01-exchange-types-routing.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive/04.03.02-queue-durability-persistence.md",
+            "type": "file",
+            "name": "04.03.02-queue-durability-persistence.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive/04.03.03-message-acknowledgment.md",
+            "type": "file",
+            "name": "04.03.03-message-acknowledgment.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive/04.03.04-dead-letter-exchanges.md",
+            "type": "file",
+            "name": "04.03.04-dead-letter-exchanges.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive/04.03.05-publisher-confirms.md",
+            "type": "file",
+            "name": "04.03.05-publisher-confirms.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.03-rabbitmq-deep-dive",
+        "type": "folder",
+        "name": "04.03-rabbitmq-deep-dive"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.04-kafka-fundamentals/04.04.00-overview.md",
+            "type": "file",
+            "name": "04.04.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.04-kafka-fundamentals/04.04.01-topics-partitions.md",
+            "type": "file",
+            "name": "04.04.01-topics-partitions.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.04-kafka-fundamentals/04.04.02-consumer-groups.md",
+            "type": "file",
+            "name": "04.04.02-consumer-groups.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.04-kafka-fundamentals/04.04.03-offset-management.md",
+            "type": "file",
+            "name": "04.04.03-offset-management.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.04-kafka-fundamentals/04.04.04-replication-fault-tolerance.md",
+            "type": "file",
+            "name": "04.04.04-replication-fault-tolerance.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.04-kafka-fundamentals/04.04.05-log-compaction.md",
+            "type": "file",
+            "name": "04.04.05-log-compaction.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.04-kafka-fundamentals",
+        "type": "folder",
+        "name": "04.04-kafka-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.05-delivery-guarantees/04.05.00-overview.md",
+            "type": "file",
+            "name": "04.05.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.05-delivery-guarantees/04.05.01-at-most-once.md",
+            "type": "file",
+            "name": "04.05.01-at-most-once.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.05-delivery-guarantees/04.05.02-at-least-once.md",
+            "type": "file",
+            "name": "04.05.02-at-least-once.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.05-delivery-guarantees/04.05.03-exactly-once.md",
+            "type": "file",
+            "name": "04.05.03-exactly-once.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.05-delivery-guarantees/04.05.04-idempotent-consumers.md",
+            "type": "file",
+            "name": "04.05.04-idempotent-consumers.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.05-delivery-guarantees/04.05.05-transactional-messaging.md",
+            "type": "file",
+            "name": "04.05.05-transactional-messaging.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.05-delivery-guarantees",
+        "type": "folder",
+        "name": "04.05-delivery-guarantees"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.06-messaging-patterns/04.06.00-overview.md",
+            "type": "file",
+            "name": "04.06.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.06-messaging-patterns/04.06.01-publish-subscribe.md",
+            "type": "file",
+            "name": "04.06.01-publish-subscribe.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.06-messaging-patterns/04.06.02-competing-consumers.md",
+            "type": "file",
+            "name": "04.06.02-competing-consumers.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.06-messaging-patterns/04.06.03-message-filtering-routing.md",
+            "type": "file",
+            "name": "04.06.03-message-filtering-routing.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.06-messaging-patterns/04.06.04-request-reply.md",
+            "type": "file",
+            "name": "04.06.04-request-reply.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.06-messaging-patterns/04.06.05-transactional-outbox.md",
+            "type": "file",
+            "name": "04.06.05-transactional-outbox.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.06-messaging-patterns",
+        "type": "folder",
+        "name": "04.06-messaging-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.07-event-sourcing/04.07.00-overview.md",
+            "type": "file",
+            "name": "04.07.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.07-event-sourcing/04.07.01-event-store-design.md",
+            "type": "file",
+            "name": "04.07.01-event-store-design.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.07-event-sourcing/04.07.02-aggregate-reconstruction.md",
+            "type": "file",
+            "name": "04.07.02-aggregate-reconstruction.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.07-event-sourcing/04.07.03-event-versioning.md",
+            "type": "file",
+            "name": "04.07.03-event-versioning.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.07-event-sourcing/04.07.04-snapshots.md",
+            "type": "file",
+            "name": "04.07.04-snapshots.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.07-event-sourcing/04.07.05-projections-read-models.md",
+            "type": "file",
+            "name": "04.07.05-projections-read-models.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.07-event-sourcing",
+        "type": "folder",
+        "name": "04.07-event-sourcing"
+      },
+      {
+        "children": [
+          {
+            "path": "04-event-driven-messaging/04.08-masstransit/04.08.00-overview.md",
+            "type": "file",
+            "name": "04.08.00-overview.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.08-masstransit/04.08.01-consumers-producers.md",
+            "type": "file",
+            "name": "04.08.01-consumers-producers.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.08-masstransit/04.08.02-sagas-state-machines.md",
+            "type": "file",
+            "name": "04.08.02-sagas-state-machines.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.08-masstransit/04.08.03-middleware-filters.md",
+            "type": "file",
+            "name": "04.08.03-middleware-filters.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.08-masstransit/04.08.04-testing.md",
+            "type": "file",
+            "name": "04.08.04-testing.md"
+          },
+          {
+            "path": "04-event-driven-messaging/04.08-masstransit/04.08.05-transport-abstraction.md",
+            "type": "file",
+            "name": "04.08.05-transport-abstraction.md"
+          }
+        ],
+        "path": "04-event-driven-messaging/04.08-masstransit",
+        "type": "folder",
+        "name": "04.08-masstransit"
+      },
+      {
+        "path": "04-event-driven-messaging/04-overview.md",
+        "type": "file",
+        "name": "04-overview.md"
+      }
+    ],
+    "path": "04-event-driven-messaging",
+    "type": "folder",
+    "name": "04-event-driven-messaging"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.01-api-design-principles/05.01.00-overview.md",
+            "type": "file",
+            "name": "05.01.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.01-api-design-principles/05.01.01-api-as-product.md",
+            "type": "file",
+            "name": "05.01.01-api-as-product.md"
+          },
+          {
+            "path": "05-api-design/05.01-api-design-principles/05.01.02-consistency-predictability.md",
+            "type": "file",
+            "name": "05.01.02-consistency-predictability.md"
+          },
+          {
+            "path": "05-api-design/05.01-api-design-principles/05.01.03-least-astonishment.md",
+            "type": "file",
+            "name": "05.01.03-least-astonishment.md"
+          },
+          {
+            "path": "05-api-design/05.01-api-design-principles/05.01.04-api-first-design.md",
+            "type": "file",
+            "name": "05.01.04-api-first-design.md"
+          },
+          {
+            "path": "05-api-design/05.01-api-design-principles/05.01.05-design-review-process.md",
+            "type": "file",
+            "name": "05.01.05-design-review-process.md"
+          }
+        ],
+        "path": "05-api-design/05.01-api-design-principles",
+        "type": "folder",
+        "name": "05.01-api-design-principles"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.02-restful-api-design/05.02.00-overview.md",
+            "type": "file",
+            "name": "05.02.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.02-restful-api-design/05.02.01-resource-oriented-design.md",
+            "type": "file",
+            "name": "05.02.01-resource-oriented-design.md"
+          },
+          {
+            "path": "05-api-design/05.02-restful-api-design/05.02.02-http-method-semantics.md",
+            "type": "file",
+            "name": "05.02.02-http-method-semantics.md"
+          },
+          {
+            "path": "05-api-design/05.02-restful-api-design/05.02.03-status-code-selection.md",
+            "type": "file",
+            "name": "05.02.03-status-code-selection.md"
+          },
+          {
+            "path": "05-api-design/05.02-restful-api-design/05.02.04-url-design-naming.md",
+            "type": "file",
+            "name": "05.02.04-url-design-naming.md"
+          },
+          {
+            "path": "05-api-design/05.02-restful-api-design/05.02.05-hateoas-maturity-model.md",
+            "type": "file",
+            "name": "05.02.05-hateoas-maturity-model.md"
+          }
+        ],
+        "path": "05-api-design/05.02-restful-api-design",
+        "type": "folder",
+        "name": "05.02-restful-api-design"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.03-api-versioning-strategies/05.03.00-overview.md",
+            "type": "file",
+            "name": "05.03.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.03-api-versioning-strategies/05.03.01-url-path-versioning.md",
+            "type": "file",
+            "name": "05.03.01-url-path-versioning.md"
+          },
+          {
+            "path": "05-api-design/05.03-api-versioning-strategies/05.03.02-header-based-versioning.md",
+            "type": "file",
+            "name": "05.03.02-header-based-versioning.md"
+          },
+          {
+            "path": "05-api-design/05.03-api-versioning-strategies/05.03.03-query-media-versioning.md",
+            "type": "file",
+            "name": "05.03.03-query-media-versioning.md"
+          },
+          {
+            "path": "05-api-design/05.03-api-versioning-strategies/05.03.04-semantic-versioning.md",
+            "type": "file",
+            "name": "05.03.04-semantic-versioning.md"
+          },
+          {
+            "path": "05-api-design/05.03-api-versioning-strategies/05.03.05-deprecation-sunset.md",
+            "type": "file",
+            "name": "05.03.05-deprecation-sunset.md"
+          }
+        ],
+        "path": "05-api-design/05.03-api-versioning-strategies",
+        "type": "folder",
+        "name": "05.03-api-versioning-strategies"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.04-openapi-documentation/05.04.00-overview.md",
+            "type": "file",
+            "name": "05.04.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.04-openapi-documentation/05.04.01-openapi-specification.md",
+            "type": "file",
+            "name": "05.04.01-openapi-specification.md"
+          },
+          {
+            "path": "05-api-design/05.04-openapi-documentation/05.04.02-generating-openapi.md",
+            "type": "file",
+            "name": "05.04.02-generating-openapi.md"
+          },
+          {
+            "path": "05-api-design/05.04-openapi-documentation/05.04.03-swagger-ui.md",
+            "type": "file",
+            "name": "05.04.03-swagger-ui.md"
+          },
+          {
+            "path": "05-api-design/05.04-openapi-documentation/05.04.04-client-generation.md",
+            "type": "file",
+            "name": "05.04.04-client-generation.md"
+          },
+          {
+            "path": "05-api-design/05.04-openapi-documentation/05.04.05-api-first-workflow.md",
+            "type": "file",
+            "name": "05.04.05-api-first-workflow.md"
+          }
+        ],
+        "path": "05-api-design/05.04-openapi-documentation",
+        "type": "folder",
+        "name": "05.04-openapi-documentation"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.05-graphql-fundamentals/05.05.00-overview.md",
+            "type": "file",
+            "name": "05.05.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.05-graphql-fundamentals/05.05.01-schema-definition.md",
+            "type": "file",
+            "name": "05.05.01-schema-definition.md"
+          },
+          {
+            "path": "05-api-design/05.05-graphql-fundamentals/05.05.02-queries-mutations.md",
+            "type": "file",
+            "name": "05.05.02-queries-mutations.md"
+          },
+          {
+            "path": "05-api-design/05.05-graphql-fundamentals/05.05.03-resolvers-execution.md",
+            "type": "file",
+            "name": "05.05.03-resolvers-execution.md"
+          },
+          {
+            "path": "05-api-design/05.05-graphql-fundamentals/05.05.04-n-plus-one-dataloader.md",
+            "type": "file",
+            "name": "05.05.04-n-plus-one-dataloader.md"
+          },
+          {
+            "path": "05-api-design/05.05-graphql-fundamentals/05.05.05-graphql-vs-rest.md",
+            "type": "file",
+            "name": "05.05.05-graphql-vs-rest.md"
+          }
+        ],
+        "path": "05-api-design/05.05-graphql-fundamentals",
+        "type": "folder",
+        "name": "05.05-graphql-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.06-graphql-dotnet/05.06.00-overview.md",
+            "type": "file",
+            "name": "05.06.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.06-graphql-dotnet/05.06.01-schema-definition.md",
+            "type": "file",
+            "name": "05.06.01-schema-definition.md"
+          },
+          {
+            "path": "05-api-design/05.06-graphql-dotnet/05.06.02-query-mutation-resolvers.md",
+            "type": "file",
+            "name": "05.06.02-query-mutation-resolvers.md"
+          },
+          {
+            "path": "05-api-design/05.06-graphql-dotnet/05.06.03-filtering-sorting.md",
+            "type": "file",
+            "name": "05.06.03-filtering-sorting.md"
+          },
+          {
+            "path": "05-api-design/05.06-graphql-dotnet/05.06.04-cursor-pagination.md",
+            "type": "file",
+            "name": "05.06.04-cursor-pagination.md"
+          },
+          {
+            "path": "05-api-design/05.06-graphql-dotnet/05.06.05-subscriptions-realtime.md",
+            "type": "file",
+            "name": "05.06.05-subscriptions-realtime.md"
+          }
+        ],
+        "path": "05-api-design/05.06-graphql-dotnet",
+        "type": "folder",
+        "name": "05.06-graphql-dotnet"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.07-grpc-communication/05.07.00-overview.md",
+            "type": "file",
+            "name": "05.07.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.07-grpc-communication/05.07.01-protobuf-schema.md",
+            "type": "file",
+            "name": "05.07.01-protobuf-schema.md"
+          },
+          {
+            "path": "05-api-design/05.07-grpc-communication/05.07.02-service-definition.md",
+            "type": "file",
+            "name": "05.07.02-service-definition.md"
+          },
+          {
+            "path": "05-api-design/05.07-grpc-communication/05.07.03-streaming-patterns.md",
+            "type": "file",
+            "name": "05.07.03-streaming-patterns.md"
+          },
+          {
+            "path": "05-api-design/05.07-grpc-communication/05.07.04-error-handling.md",
+            "type": "file",
+            "name": "05.07.04-error-handling.md"
+          },
+          {
+            "path": "05-api-design/05.07-grpc-communication/05.07.05-interceptors.md",
+            "type": "file",
+            "name": "05.07.05-interceptors.md"
+          }
+        ],
+        "path": "05-api-design/05.07-grpc-communication",
+        "type": "folder",
+        "name": "05.07-grpc-communication"
+      },
+      {
+        "children": [
+          {
+            "path": "05-api-design/05.08-api-security/05.08.00-overview.md",
+            "type": "file",
+            "name": "05.08.00-overview.md"
+          },
+          {
+            "path": "05-api-design/05.08-api-security/05.08.01-authentication-mechanisms.md",
+            "type": "file",
+            "name": "05.08.01-authentication-mechanisms.md"
+          },
+          {
+            "path": "05-api-design/05.08-api-security/05.08.02-api-key-management.md",
+            "type": "file",
+            "name": "05.08.02-api-key-management.md"
+          },
+          {
+            "path": "05-api-design/05.08-api-security/05.08.03-jwt-validation.md",
+            "type": "file",
+            "name": "05.08.03-jwt-validation.md"
+          },
+          {
+            "path": "05-api-design/05.08-api-security/05.08.04-rate-limiting.md",
+            "type": "file",
+            "name": "05.08.04-rate-limiting.md"
+          },
+          {
+            "path": "05-api-design/05.08-api-security/05.08.05-input-validation.md",
+            "type": "file",
+            "name": "05.08.05-input-validation.md"
+          }
+        ],
+        "path": "05-api-design/05.08-api-security",
+        "type": "folder",
+        "name": "05.08-api-security"
+      },
+      {
+        "path": "05-api-design/05-overview.md",
+        "type": "file",
+        "name": "05-overview.md"
+      }
+    ],
+    "path": "05-api-design",
+    "type": "folder",
+    "name": "05-api-design"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.01-container-fundamentals/06.01.00-overview.md",
+            "type": "file",
+            "name": "06.01.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.01-container-fundamentals/06.01.01-containers-vs-vms.md",
+            "type": "file",
+            "name": "06.01.01-containers-vs-vms.md"
+          },
+          {
+            "path": "06-containerization/06.01-container-fundamentals/06.01.02-images-layers.md",
+            "type": "file",
+            "name": "06.01.02-images-layers.md"
+          },
+          {
+            "path": "06-containerization/06.01-container-fundamentals/06.01.03-registries.md",
+            "type": "file",
+            "name": "06.01.03-registries.md"
+          },
+          {
+            "path": "06-containerization/06.01-container-fundamentals/06.01.04-runtimes.md",
+            "type": "file",
+            "name": "06.01.04-runtimes.md"
+          },
+          {
+            "path": "06-containerization/06.01-container-fundamentals/06.01.05-oci-specs.md",
+            "type": "file",
+            "name": "06.01.05-oci-specs.md"
+          }
+        ],
+        "path": "06-containerization/06.01-container-fundamentals",
+        "type": "folder",
+        "name": "06.01-container-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.02-docker-deep-dive/06.02.00-overview.md",
+            "type": "file",
+            "name": "06.02.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.02-docker-deep-dive/06.02.01-dockerfile-best-practices.md",
+            "type": "file",
+            "name": "06.02.01-dockerfile-best-practices.md"
+          },
+          {
+            "path": "06-containerization/06.02-docker-deep-dive/06.02.02-multi-stage-builds.md",
+            "type": "file",
+            "name": "06.02.02-multi-stage-builds.md"
+          },
+          {
+            "path": "06-containerization/06.02-docker-deep-dive/06.02.03-docker-networking.md",
+            "type": "file",
+            "name": "06.02.03-docker-networking.md"
+          },
+          {
+            "path": "06-containerization/06.02-docker-deep-dive/06.02.04-docker-volumes.md",
+            "type": "file",
+            "name": "06.02.04-docker-volumes.md"
+          },
+          {
+            "path": "06-containerization/06.02-docker-deep-dive/06.02.05-docker-compose.md",
+            "type": "file",
+            "name": "06.02.05-docker-compose.md"
+          }
+        ],
+        "path": "06-containerization/06.02-docker-deep-dive",
+        "type": "folder",
+        "name": "06.02-docker-deep-dive"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.03-containerizing-dotnet/06.03.00-overview.md",
+            "type": "file",
+            "name": "06.03.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.03-containerizing-dotnet/06.03.01-dotnet-base-images.md",
+            "type": "file",
+            "name": "06.03.01-dotnet-base-images.md"
+          },
+          {
+            "path": "06-containerization/06.03-containerizing-dotnet/06.03.02-multistage-builds-dotnet.md",
+            "type": "file",
+            "name": "06.03.02-multistage-builds-dotnet.md"
+          },
+          {
+            "path": "06-containerization/06.03-containerizing-dotnet/06.03.03-configuration-management.md",
+            "type": "file",
+            "name": "06.03.03-configuration-management.md"
+          },
+          {
+            "path": "06-containerization/06.03-containerizing-dotnet/06.03.04-health-checks.md",
+            "type": "file",
+            "name": "06.03.04-health-checks.md"
+          },
+          {
+            "path": "06-containerization/06.03-containerizing-dotnet/06.03.05-debugging-containers.md",
+            "type": "file",
+            "name": "06.03.05-debugging-containers.md"
+          }
+        ],
+        "path": "06-containerization/06.03-containerizing-dotnet",
+        "type": "folder",
+        "name": "06.03-containerizing-dotnet"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.04-container-security/06.04.00-overview.md",
+            "type": "file",
+            "name": "06.04.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.04-container-security/06.04.01-vulnerability-scanning.md",
+            "type": "file",
+            "name": "06.04.01-vulnerability-scanning.md"
+          },
+          {
+            "path": "06-containerization/06.04-container-security/06.04.02-non-root-containers.md",
+            "type": "file",
+            "name": "06.04.02-non-root-containers.md"
+          },
+          {
+            "path": "06-containerization/06.04-container-security/06.04.03-readonly-filesystems.md",
+            "type": "file",
+            "name": "06.04.03-readonly-filesystems.md"
+          },
+          {
+            "path": "06-containerization/06.04-container-security/06.04.04-resource-limits.md",
+            "type": "file",
+            "name": "06.04.04-resource-limits.md"
+          },
+          {
+            "path": "06-containerization/06.04-container-security/06.04.05-secrets-management.md",
+            "type": "file",
+            "name": "06.04.05-secrets-management.md"
+          }
+        ],
+        "path": "06-containerization/06.04-container-security",
+        "type": "folder",
+        "name": "06.04-container-security"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.05-kubernetes-architecture/06.05.00-overview.md",
+            "type": "file",
+            "name": "06.05.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.05-kubernetes-architecture/06.05.01-control-plane.md",
+            "type": "file",
+            "name": "06.05.01-control-plane.md"
+          },
+          {
+            "path": "06-containerization/06.05-kubernetes-architecture/06.05.02-node-components.md",
+            "type": "file",
+            "name": "06.05.02-node-components.md"
+          },
+          {
+            "path": "06-containerization/06.05-kubernetes-architecture/06.05.03-kubernetes-api.md",
+            "type": "file",
+            "name": "06.05.03-kubernetes-api.md"
+          },
+          {
+            "path": "06-containerization/06.05-kubernetes-architecture/06.05.04-declarative-reconciliation.md",
+            "type": "file",
+            "name": "06.05.04-declarative-reconciliation.md"
+          },
+          {
+            "path": "06-containerization/06.05-kubernetes-architecture/06.05.05-cluster-patterns.md",
+            "type": "file",
+            "name": "06.05.05-cluster-patterns.md"
+          }
+        ],
+        "path": "06-containerization/06.05-kubernetes-architecture",
+        "type": "folder",
+        "name": "06.05-kubernetes-architecture"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.06-kubernetes-workloads/06.06.00-overview.md",
+            "type": "file",
+            "name": "06.06.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.06-kubernetes-workloads/06.06.01-pods.md",
+            "type": "file",
+            "name": "06.06.01-pods.md"
+          },
+          {
+            "path": "06-containerization/06.06-kubernetes-workloads/06.06.02-deployments.md",
+            "type": "file",
+            "name": "06.06.02-deployments.md"
+          },
+          {
+            "path": "06-containerization/06.06-kubernetes-workloads/06.06.03-statefulsets.md",
+            "type": "file",
+            "name": "06.06.03-statefulsets.md"
+          },
+          {
+            "path": "06-containerization/06.06-kubernetes-workloads/06.06.04-daemonsets.md",
+            "type": "file",
+            "name": "06.06.04-daemonsets.md"
+          },
+          {
+            "path": "06-containerization/06.06-kubernetes-workloads/06.06.05-jobs-cronjobs.md",
+            "type": "file",
+            "name": "06.06.05-jobs-cronjobs.md"
+          }
+        ],
+        "path": "06-containerization/06.06-kubernetes-workloads",
+        "type": "folder",
+        "name": "06.06-kubernetes-workloads"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.07-kubernetes-networking/06.07.00-overview.md",
+            "type": "file",
+            "name": "06.07.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.07-kubernetes-networking/06.07.01-services.md",
+            "type": "file",
+            "name": "06.07.01-services.md"
+          },
+          {
+            "path": "06-containerization/06.07-kubernetes-networking/06.07.02-ingress.md",
+            "type": "file",
+            "name": "06.07.02-ingress.md"
+          },
+          {
+            "path": "06-containerization/06.07-kubernetes-networking/06.07.03-network-policies.md",
+            "type": "file",
+            "name": "06.07.03-network-policies.md"
+          },
+          {
+            "path": "06-containerization/06.07-kubernetes-networking/06.07.04-dns.md",
+            "type": "file",
+            "name": "06.07.04-dns.md"
+          },
+          {
+            "path": "06-containerization/06.07-kubernetes-networking/06.07.05-service-mesh.md",
+            "type": "file",
+            "name": "06.07.05-service-mesh.md"
+          }
+        ],
+        "path": "06-containerization/06.07-kubernetes-networking",
+        "type": "folder",
+        "name": "06.07-kubernetes-networking"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.08-kubernetes-config-storage/06.08.00-overview.md",
+            "type": "file",
+            "name": "06.08.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.08-kubernetes-config-storage/06.08.01-configmaps.md",
+            "type": "file",
+            "name": "06.08.01-configmaps.md"
+          },
+          {
+            "path": "06-containerization/06.08-kubernetes-config-storage/06.08.02-secrets.md",
+            "type": "file",
+            "name": "06.08.02-secrets.md"
+          },
+          {
+            "path": "06-containerization/06.08-kubernetes-config-storage/06.08.03-persistent-volumes.md",
+            "type": "file",
+            "name": "06.08.03-persistent-volumes.md"
+          },
+          {
+            "path": "06-containerization/06.08-kubernetes-config-storage/06.08.04-storage-classes.md",
+            "type": "file",
+            "name": "06.08.04-storage-classes.md"
+          },
+          {
+            "path": "06-containerization/06.08-kubernetes-config-storage/06.08.05-statefulset-storage.md",
+            "type": "file",
+            "name": "06.08.05-statefulset-storage.md"
+          }
+        ],
+        "path": "06-containerization/06.08-kubernetes-config-storage",
+        "type": "folder",
+        "name": "06.08-kubernetes-config-storage"
+      },
+      {
+        "children": [
+          {
+            "path": "06-containerization/06.09-helm/06.09.00-overview.md",
+            "type": "file",
+            "name": "06.09.00-overview.md"
+          },
+          {
+            "path": "06-containerization/06.09-helm/06.09.01-helm-basics.md",
+            "type": "file",
+            "name": "06.09.01-helm-basics.md"
+          },
+          {
+            "path": "06-containerization/06.09-helm/06.09.02-chart-structure.md",
+            "type": "file",
+            "name": "06.09.02-chart-structure.md"
+          },
+          {
+            "path": "06-containerization/06.09-helm/06.09.03-templating-values.md",
+            "type": "file",
+            "name": "06.09.03-templating-values.md"
+          },
+          {
+            "path": "06-containerization/06.09-helm/06.09.04-dependencies-releases.md",
+            "type": "file",
+            "name": "06.09.04-dependencies-releases.md"
+          },
+          {
+            "path": "06-containerization/06.09-helm/06.09.05-repositories.md",
+            "type": "file",
+            "name": "06.09.05-repositories.md"
+          }
+        ],
+        "path": "06-containerization/06.09-helm",
+        "type": "folder",
+        "name": "06.09-helm"
+      },
+      {
+        "path": "06-containerization/06-overview.md",
+        "type": "file",
+        "name": "06-overview.md"
+      }
+    ],
+    "path": "06-containerization",
+    "type": "folder",
+    "name": "06-containerization"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "07-linux/07.01-linux-fundamentals-review/07.01.00-overview.md",
+            "type": "file",
+            "name": "07.01.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.01-linux-fundamentals-review/07.01.01-filesystem-hierarchy.md",
+            "type": "file",
+            "name": "07.01.01-filesystem-hierarchy.md"
+          },
+          {
+            "path": "07-linux/07.01-linux-fundamentals-review/07.01.02-file-permissions.md",
+            "type": "file",
+            "name": "07.01.02-file-permissions.md"
+          },
+          {
+            "path": "07-linux/07.01-linux-fundamentals-review/07.01.03-users-groups-ownership.md",
+            "type": "file",
+            "name": "07.01.03-users-groups-ownership.md"
+          },
+          {
+            "path": "07-linux/07.01-linux-fundamentals-review/07.01.04-links.md",
+            "type": "file",
+            "name": "07.01.04-links.md"
+          },
+          {
+            "path": "07-linux/07.01-linux-fundamentals-review/07.01.05-unix-philosophy-pipes.md",
+            "type": "file",
+            "name": "07.01.05-unix-philosophy-pipes.md"
+          }
+        ],
+        "path": "07-linux/07.01-linux-fundamentals-review",
+        "type": "folder",
+        "name": "07.01-linux-fundamentals-review"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.02-command-line-mastery/07.02.00-overview.md",
+            "type": "file",
+            "name": "07.02.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.02-command-line-mastery/07.02.01-grep-text-searching.md",
+            "type": "file",
+            "name": "07.02.01-grep-text-searching.md"
+          },
+          {
+            "path": "07-linux/07.02-command-line-mastery/07.02.02-sed-awk-processing.md",
+            "type": "file",
+            "name": "07.02.02-sed-awk-processing.md"
+          },
+          {
+            "path": "07-linux/07.02-command-line-mastery/07.02.03-find-xargs.md",
+            "type": "file",
+            "name": "07.02.03-find-xargs.md"
+          },
+          {
+            "path": "07-linux/07.02-command-line-mastery/07.02.04-process-management.md",
+            "type": "file",
+            "name": "07.02.04-process-management.md"
+          },
+          {
+            "path": "07-linux/07.02-command-line-mastery/07.02.05-tar-compression.md",
+            "type": "file",
+            "name": "07.02.05-tar-compression.md"
+          }
+        ],
+        "path": "07-linux/07.02-command-line-mastery",
+        "type": "folder",
+        "name": "07.02-command-line-mastery"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.03-bash-scripting/07.03.00-overview.md",
+            "type": "file",
+            "name": "07.03.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.03-bash-scripting/07.03.01-variables-data-types.md",
+            "type": "file",
+            "name": "07.03.01-variables-data-types.md"
+          },
+          {
+            "path": "07-linux/07.03-bash-scripting/07.03.02-conditionals.md",
+            "type": "file",
+            "name": "07.03.02-conditionals.md"
+          },
+          {
+            "path": "07-linux/07.03-bash-scripting/07.03.03-loops.md",
+            "type": "file",
+            "name": "07.03.03-loops.md"
+          },
+          {
+            "path": "07-linux/07.03-bash-scripting/07.03.04-functions.md",
+            "type": "file",
+            "name": "07.03.04-functions.md"
+          },
+          {
+            "path": "07-linux/07.03-bash-scripting/07.03.05-error-handling.md",
+            "type": "file",
+            "name": "07.03.05-error-handling.md"
+          }
+        ],
+        "path": "07-linux/07.03-bash-scripting",
+        "type": "folder",
+        "name": "07.03-bash-scripting"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.04-process-service-management/07.04.00-overview.md",
+            "type": "file",
+            "name": "07.04.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.04-process-service-management/07.04.01-process-states-lifecycle.md",
+            "type": "file",
+            "name": "07.04.01-process-states-lifecycle.md"
+          },
+          {
+            "path": "07-linux/07.04-process-service-management/07.04.02-systemd-intro.md",
+            "type": "file",
+            "name": "07.04.02-systemd-intro.md"
+          },
+          {
+            "path": "07-linux/07.04-process-service-management/07.04.03-systemctl-management.md",
+            "type": "file",
+            "name": "07.04.03-systemctl-management.md"
+          },
+          {
+            "path": "07-linux/07.04-process-service-management/07.04.04-unit-files-custom-services.md",
+            "type": "file",
+            "name": "07.04.04-unit-files-custom-services.md"
+          },
+          {
+            "path": "07-linux/07.04-process-service-management/07.04.05-journalctl-logging.md",
+            "type": "file",
+            "name": "07.04.05-journalctl-logging.md"
+          }
+        ],
+        "path": "07-linux/07.04-process-service-management",
+        "type": "folder",
+        "name": "07.04-process-service-management"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.05-linux-networking/07.05.00-overview.md",
+            "type": "file",
+            "name": "07.05.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.05-linux-networking/07.05.01-network-interfaces.md",
+            "type": "file",
+            "name": "07.05.01-network-interfaces.md"
+          },
+          {
+            "path": "07-linux/07.05-linux-networking/07.05.02-firewall-basics.md",
+            "type": "file",
+            "name": "07.05.02-firewall-basics.md"
+          },
+          {
+            "path": "07-linux/07.05-linux-networking/07.05.03-ssh-security.md",
+            "type": "file",
+            "name": "07.05.03-ssh-security.md"
+          },
+          {
+            "path": "07-linux/07.05-linux-networking/07.05.04-dns-configuration.md",
+            "type": "file",
+            "name": "07.05.04-dns-configuration.md"
+          },
+          {
+            "path": "07-linux/07.05-linux-networking/07.05.05-troubleshooting-tools.md",
+            "type": "file",
+            "name": "07.05.05-troubleshooting-tools.md"
+          }
+        ],
+        "path": "07-linux/07.05-linux-networking",
+        "type": "folder",
+        "name": "07.05-linux-networking"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.06-linux-security/07.06.00-overview.md",
+            "type": "file",
+            "name": "07.06.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.06-linux-security/07.06.01-user-management-least-privilege.md",
+            "type": "file",
+            "name": "07.06.01-user-management-least-privilege.md"
+          },
+          {
+            "path": "07-linux/07.06-linux-security/07.06.02-sudo-configuration.md",
+            "type": "file",
+            "name": "07.06.02-sudo-configuration.md"
+          },
+          {
+            "path": "07-linux/07.06-linux-security/07.06.03-selinux-apparmor.md",
+            "type": "file",
+            "name": "07.06.03-selinux-apparmor.md"
+          },
+          {
+            "path": "07-linux/07.06-linux-security/07.06.04-file-integrity-monitoring.md",
+            "type": "file",
+            "name": "07.06.04-file-integrity-monitoring.md"
+          },
+          {
+            "path": "07-linux/07.06-linux-security/07.06.05-security-updates.md",
+            "type": "file",
+            "name": "07.06.05-security-updates.md"
+          }
+        ],
+        "path": "07-linux/07.06-linux-security",
+        "type": "folder",
+        "name": "07.06-linux-security"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.07-performance-monitoring/07.07.00-overview.md",
+            "type": "file",
+            "name": "07.07.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.07-performance-monitoring/07.07.01-cpu-performance.md",
+            "type": "file",
+            "name": "07.07.01-cpu-performance.md"
+          },
+          {
+            "path": "07-linux/07.07-performance-monitoring/07.07.02-memory-swap.md",
+            "type": "file",
+            "name": "07.07.02-memory-swap.md"
+          },
+          {
+            "path": "07-linux/07.07-performance-monitoring/07.07.03-disk-io-performance.md",
+            "type": "file",
+            "name": "07.07.03-disk-io-performance.md"
+          },
+          {
+            "path": "07-linux/07.07-performance-monitoring/07.07.04-network-performance.md",
+            "type": "file",
+            "name": "07.07.04-network-performance.md"
+          },
+          {
+            "path": "07-linux/07.07-performance-monitoring/07.07.05-systematic-troubleshooting.md",
+            "type": "file",
+            "name": "07.07.05-systematic-troubleshooting.md"
+          }
+        ],
+        "path": "07-linux/07.07-performance-monitoring",
+        "type": "folder",
+        "name": "07.07-performance-monitoring"
+      },
+      {
+        "children": [
+          {
+            "path": "07-linux/07.08-containers-os-perspective/07.08.00-overview.md",
+            "type": "file",
+            "name": "07.08.00-overview.md"
+          },
+          {
+            "path": "07-linux/07.08-containers-os-perspective/07.08.01-namespaces.md",
+            "type": "file",
+            "name": "07.08.01-namespaces.md"
+          },
+          {
+            "path": "07-linux/07.08-containers-os-perspective/07.08.02-cgroups.md",
+            "type": "file",
+            "name": "07.08.02-cgroups.md"
+          },
+          {
+            "path": "07-linux/07.08-containers-os-perspective/07.08.03-overlay-filesystems.md",
+            "type": "file",
+            "name": "07.08.03-overlay-filesystems.md"
+          },
+          {
+            "path": "07-linux/07.08-containers-os-perspective/07.08.04-resource-limits.md",
+            "type": "file",
+            "name": "07.08.04-resource-limits.md"
+          },
+          {
+            "path": "07-linux/07.08-containers-os-perspective/07.08.05-debugging-containers.md",
+            "type": "file",
+            "name": "07.08.05-debugging-containers.md"
+          }
+        ],
+        "path": "07-linux/07.08-containers-os-perspective",
+        "type": "folder",
+        "name": "07.08-containers-os-perspective"
+      },
+      {
+        "path": "07-linux/07-overview.md",
+        "type": "file",
+        "name": "07-overview.md"
+      }
+    ],
+    "path": "07-linux",
+    "type": "folder",
+    "name": "07-linux"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "08-observability/08.01-observability-fundamentals/08.01.00-overview.md",
+            "type": "file",
+            "name": "08.01.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.01-observability-fundamentals/08.01.01-monitoring-vs-observability.md",
+            "type": "file",
+            "name": "08.01.01-monitoring-vs-observability.md"
+          },
+          {
+            "path": "08-observability/08.01-observability-fundamentals/08.01.02-three-pillars.md",
+            "type": "file",
+            "name": "08.01.02-three-pillars.md"
+          },
+          {
+            "path": "08-observability/08.01-observability-fundamentals/08.01.03-observability-driven-development.md",
+            "type": "file",
+            "name": "08.01.03-observability-driven-development.md"
+          },
+          {
+            "path": "08-observability/08.01-observability-fundamentals/08.01.04-cardinality-dimensionality.md",
+            "type": "file",
+            "name": "08.01.04-cardinality-dimensionality.md"
+          },
+          {
+            "path": "08-observability/08.01-observability-fundamentals/08.01.05-correlation-context.md",
+            "type": "file",
+            "name": "08.01.05-correlation-context.md"
+          }
+        ],
+        "path": "08-observability/08.01-observability-fundamentals",
+        "type": "folder",
+        "name": "08.01-observability-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.02-structured-logging/08.02.00-overview.md",
+            "type": "file",
+            "name": "08.02.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.02-structured-logging/08.02.01-structured-vs-unstructured.md",
+            "type": "file",
+            "name": "08.02.01-structured-vs-unstructured.md"
+          },
+          {
+            "path": "08-observability/08.02-structured-logging/08.02.02-log-levels.md",
+            "type": "file",
+            "name": "08.02.02-log-levels.md"
+          },
+          {
+            "path": "08-observability/08.02-structured-logging/08.02.03-serilog-dotnet.md",
+            "type": "file",
+            "name": "08.02.03-serilog-dotnet.md"
+          },
+          {
+            "path": "08-observability/08.02-structured-logging/08.02.04-context-correlation.md",
+            "type": "file",
+            "name": "08.02.04-context-correlation.md"
+          },
+          {
+            "path": "08-observability/08.02-structured-logging/08.02.05-aggregation-searching.md",
+            "type": "file",
+            "name": "08.02.05-aggregation-searching.md"
+          }
+        ],
+        "path": "08-observability/08.02-structured-logging",
+        "type": "folder",
+        "name": "08.02-structured-logging"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.03-opentelemetry-introduction/08.03.00-overview.md",
+            "type": "file",
+            "name": "08.03.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.03-opentelemetry-introduction/08.03.01-what-is-opentelemetry.md",
+            "type": "file",
+            "name": "08.03.01-what-is-opentelemetry.md"
+          },
+          {
+            "path": "08-observability/08.03-opentelemetry-introduction/08.03.02-architecture.md",
+            "type": "file",
+            "name": "08.03.02-architecture.md"
+          },
+          {
+            "path": "08-observability/08.03-opentelemetry-introduction/08.03.03-sdks-instrumentation.md",
+            "type": "file",
+            "name": "08.03.03-sdks-instrumentation.md"
+          },
+          {
+            "path": "08-observability/08.03-opentelemetry-introduction/08.03.04-exporters-backends.md",
+            "type": "file",
+            "name": "08.03.04-exporters-backends.md"
+          },
+          {
+            "path": "08-observability/08.03-opentelemetry-introduction/08.03.05-collector.md",
+            "type": "file",
+            "name": "08.03.05-collector.md"
+          }
+        ],
+        "path": "08-observability/08.03-opentelemetry-introduction",
+        "type": "folder",
+        "name": "08.03-opentelemetry-introduction"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.04-distributed-tracing/08.04.00-overview.md",
+            "type": "file",
+            "name": "08.04.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.04-distributed-tracing/08.04.01-spans-traces.md",
+            "type": "file",
+            "name": "08.04.01-spans-traces.md"
+          },
+          {
+            "path": "08-observability/08.04-distributed-tracing/08.04.02-context-propagation.md",
+            "type": "file",
+            "name": "08.04.02-context-propagation.md"
+          },
+          {
+            "path": "08-observability/08.04-distributed-tracing/08.04.03-sampling-strategies.md",
+            "type": "file",
+            "name": "08.04.03-sampling-strategies.md"
+          },
+          {
+            "path": "08-observability/08.04-distributed-tracing/08.04.04-instrumenting-code.md",
+            "type": "file",
+            "name": "08.04.04-instrumenting-code.md"
+          },
+          {
+            "path": "08-observability/08.04-distributed-tracing/08.04.05-analyzing-traces.md",
+            "type": "file",
+            "name": "08.04.05-analyzing-traces.md"
+          }
+        ],
+        "path": "08-observability/08.04-distributed-tracing",
+        "type": "folder",
+        "name": "08.04-distributed-tracing"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.05-metrics-prometheus/08.05.00-overview.md",
+            "type": "file",
+            "name": "08.05.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.05-metrics-prometheus/08.05.01-architecture.md",
+            "type": "file",
+            "name": "08.05.01-architecture.md"
+          },
+          {
+            "path": "08-observability/08.05-metrics-prometheus/08.05.02-metric-types.md",
+            "type": "file",
+            "name": "08.05.02-metric-types.md"
+          },
+          {
+            "path": "08-observability/08.05-metrics-prometheus/08.05.03-promql.md",
+            "type": "file",
+            "name": "08.05.03-promql.md"
+          },
+          {
+            "path": "08-observability/08.05-metrics-prometheus/08.05.04-rules-alerts.md",
+            "type": "file",
+            "name": "08.05.04-rules-alerts.md"
+          },
+          {
+            "path": "08-observability/08.05-metrics-prometheus/08.05.05-service-discovery.md",
+            "type": "file",
+            "name": "08.05.05-service-discovery.md"
+          }
+        ],
+        "path": "08-observability/08.05-metrics-prometheus",
+        "type": "folder",
+        "name": "08.05-metrics-prometheus"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.06-visualization-grafana/08.06.00-overview.md",
+            "type": "file",
+            "name": "08.06.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.06-visualization-grafana/08.06.01-getting-started.md",
+            "type": "file",
+            "name": "08.06.01-getting-started.md"
+          },
+          {
+            "path": "08-observability/08.06-visualization-grafana/08.06.02-panel-types.md",
+            "type": "file",
+            "name": "08.06.02-panel-types.md"
+          },
+          {
+            "path": "08-observability/08.06-visualization-grafana/08.06.03-variables.md",
+            "type": "file",
+            "name": "08.06.03-variables.md"
+          },
+          {
+            "path": "08-observability/08.06-visualization-grafana/08.06.04-alerting.md",
+            "type": "file",
+            "name": "08.06.04-alerting.md"
+          },
+          {
+            "path": "08-observability/08.06-visualization-grafana/08.06.05-dashboard-as-code.md",
+            "type": "file",
+            "name": "08.06.05-dashboard-as-code.md"
+          }
+        ],
+        "path": "08-observability/08.06-visualization-grafana",
+        "type": "folder",
+        "name": "08.06-visualization-grafana"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.07-log-aggregation-loki/08.07.00-overview.md",
+            "type": "file",
+            "name": "08.07.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.07-log-aggregation-loki/08.07.01-architecture-labels.md",
+            "type": "file",
+            "name": "08.07.01-architecture-labels.md"
+          },
+          {
+            "path": "08-observability/08.07-log-aggregation-loki/08.07.02-log-ingestion.md",
+            "type": "file",
+            "name": "08.07.02-log-ingestion.md"
+          },
+          {
+            "path": "08-observability/08.07-log-aggregation-loki/08.07.03-logql.md",
+            "type": "file",
+            "name": "08.07.03-logql.md"
+          },
+          {
+            "path": "08-observability/08.07-log-aggregation-loki/08.07.04-grafana-integration.md",
+            "type": "file",
+            "name": "08.07.04-grafana-integration.md"
+          },
+          {
+            "path": "08-observability/08.07-log-aggregation-loki/08.07.05-loki-vs-elasticsearch.md",
+            "type": "file",
+            "name": "08.07.05-loki-vs-elasticsearch.md"
+          }
+        ],
+        "path": "08-observability/08.07-log-aggregation-loki",
+        "type": "folder",
+        "name": "08.07-log-aggregation-loki"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.08-distributed-tracing-jaeger/08.08.00-overview.md",
+            "type": "file",
+            "name": "08.08.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.08-distributed-tracing-jaeger/08.08.01-architecture.md",
+            "type": "file",
+            "name": "08.08.01-architecture.md"
+          },
+          {
+            "path": "08-observability/08.08-distributed-tracing-jaeger/08.08.02-storage-backends.md",
+            "type": "file",
+            "name": "08.08.02-storage-backends.md"
+          },
+          {
+            "path": "08-observability/08.08-distributed-tracing-jaeger/08.08.03-trace-analysis.md",
+            "type": "file",
+            "name": "08.08.03-trace-analysis.md"
+          },
+          {
+            "path": "08-observability/08.08-distributed-tracing-jaeger/08.08.04-service-dependency.md",
+            "type": "file",
+            "name": "08.08.04-service-dependency.md"
+          },
+          {
+            "path": "08-observability/08.08-distributed-tracing-jaeger/08.08.05-opentelemetry-integration.md",
+            "type": "file",
+            "name": "08.08.05-opentelemetry-integration.md"
+          }
+        ],
+        "path": "08-observability/08.08-distributed-tracing-jaeger",
+        "type": "folder",
+        "name": "08.08-distributed-tracing-jaeger"
+      },
+      {
+        "children": [
+          {
+            "path": "08-observability/08.09-alerting-incident-response/08.09.00-overview.md",
+            "type": "file",
+            "name": "08.09.00-overview.md"
+          },
+          {
+            "path": "08-observability/08.09-alerting-incident-response/08.09.01-alert-design-principles.md",
+            "type": "file",
+            "name": "08.09.01-alert-design-principles.md"
+          },
+          {
+            "path": "08-observability/08.09-alerting-incident-response/08.09.02-symptom-vs-cause.md",
+            "type": "file",
+            "name": "08.09.02-symptom-vs-cause.md"
+          },
+          {
+            "path": "08-observability/08.09-alerting-incident-response/08.09.03-severity-routing.md",
+            "type": "file",
+            "name": "08.09.03-severity-routing.md"
+          },
+          {
+            "path": "08-observability/08.09-alerting-incident-response/08.09.04-runbooks-playbooks.md",
+            "type": "file",
+            "name": "08.09.04-runbooks-playbooks.md"
+          },
+          {
+            "path": "08-observability/08.09-alerting-incident-response/08.09.05-oncall-incident-management.md",
+            "type": "file",
+            "name": "08.09.05-oncall-incident-management.md"
+          }
+        ],
+        "path": "08-observability/08.09-alerting-incident-response",
+        "type": "folder",
+        "name": "08.09-alerting-incident-response"
+      },
+      {
+        "path": "08-observability/08-overview.md",
+        "type": "file",
+        "name": "08-overview.md"
+      }
+    ],
+    "path": "08-observability",
+    "type": "folder",
+    "name": "08-observability"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.01-advanced-query-techniques/09.01.00-overview.md",
+            "type": "file",
+            "name": "09.01.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.01-advanced-query-techniques/09.01.01-subqueries.md",
+            "type": "file",
+            "name": "09.01.01-subqueries.md"
+          },
+          {
+            "path": "09-postgresql/09.01-advanced-query-techniques/09.01.02-ctes.md",
+            "type": "file",
+            "name": "09.01.02-ctes.md"
+          },
+          {
+            "path": "09-postgresql/09.01-advanced-query-techniques/09.01.03-recursive-queries.md",
+            "type": "file",
+            "name": "09.01.03-recursive-queries.md"
+          },
+          {
+            "path": "09-postgresql/09.01-advanced-query-techniques/09.01.04-set-operations.md",
+            "type": "file",
+            "name": "09.01.04-set-operations.md"
+          }
+        ],
+        "path": "09-postgresql/09.01-advanced-query-techniques",
+        "type": "folder",
+        "name": "09.01-advanced-query-techniques"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.02-window-functions/09.02.00-overview.md",
+            "type": "file",
+            "name": "09.02.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.02-window-functions/09.02.01-window-functions-fundamentals.md",
+            "type": "file",
+            "name": "09.02.01-window-functions-fundamentals.md"
+          },
+          {
+            "path": "09-postgresql/09.02-window-functions/09.02.02-ranking-functions.md",
+            "type": "file",
+            "name": "09.02.02-ranking-functions.md"
+          },
+          {
+            "path": "09-postgresql/09.02-window-functions/09.02.03-aggregate-window-functions.md",
+            "type": "file",
+            "name": "09.02.03-aggregate-window-functions.md"
+          },
+          {
+            "path": "09-postgresql/09.02-window-functions/09.02.04-navigation-functions.md",
+            "type": "file",
+            "name": "09.02.04-navigation-functions.md"
+          },
+          {
+            "path": "09-postgresql/09.02-window-functions/09.02.05-window-frames.md",
+            "type": "file",
+            "name": "09.02.05-window-frames.md"
+          }
+        ],
+        "path": "09-postgresql/09.02-window-functions",
+        "type": "folder",
+        "name": "09.02-window-functions"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.03-indexing-strategies/09.03.00-overview.md",
+            "type": "file",
+            "name": "09.03.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.03-indexing-strategies/09.03.01-btree-fundamentals.md",
+            "type": "file",
+            "name": "09.03.01-btree-fundamentals.md"
+          },
+          {
+            "path": "09-postgresql/09.03-indexing-strategies/09.03.02-composite-indexes.md",
+            "type": "file",
+            "name": "09.03.02-composite-indexes.md"
+          },
+          {
+            "path": "09-postgresql/09.03-indexing-strategies/09.03.03-specialized-index-types.md",
+            "type": "file",
+            "name": "09.03.03-specialized-index-types.md"
+          },
+          {
+            "path": "09-postgresql/09.03-indexing-strategies/09.03.04-partial-covering-indexes.md",
+            "type": "file",
+            "name": "09.03.04-partial-covering-indexes.md"
+          },
+          {
+            "path": "09-postgresql/09.03-indexing-strategies/09.03.05-index-maintenance.md",
+            "type": "file",
+            "name": "09.03.05-index-maintenance.md"
+          }
+        ],
+        "path": "09-postgresql/09.03-indexing-strategies",
+        "type": "folder",
+        "name": "09.03-indexing-strategies"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.04-query-optimization/09.04.00-overview.md",
+            "type": "file",
+            "name": "09.04.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.04-query-optimization/09.04.01-explain-query-plans.md",
+            "type": "file",
+            "name": "09.04.01-explain-query-plans.md"
+          },
+          {
+            "path": "09-postgresql/09.04-query-optimization/09.04.02-scan-types-index-usage.md",
+            "type": "file",
+            "name": "09.04.02-scan-types-index-usage.md"
+          },
+          {
+            "path": "09-postgresql/09.04-query-optimization/09.04.03-join-algorithms.md",
+            "type": "file",
+            "name": "09.04.03-join-algorithms.md"
+          },
+          {
+            "path": "09-postgresql/09.04-query-optimization/09.04.04-planner-statistics.md",
+            "type": "file",
+            "name": "09.04.04-planner-statistics.md"
+          },
+          {
+            "path": "09-postgresql/09.04-query-optimization/09.04.05-optimization-techniques.md",
+            "type": "file",
+            "name": "09.04.05-optimization-techniques.md"
+          }
+        ],
+        "path": "09-postgresql/09.04-query-optimization",
+        "type": "folder",
+        "name": "09.04-query-optimization"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.05-transactions-concurrency/09.05.00-overview.md",
+            "type": "file",
+            "name": "09.05.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.05-transactions-concurrency/09.05.01-acid-transaction-fundamentals.md",
+            "type": "file",
+            "name": "09.05.01-acid-transaction-fundamentals.md"
+          },
+          {
+            "path": "09-postgresql/09.05-transactions-concurrency/09.05.02-isolation-levels.md",
+            "type": "file",
+            "name": "09.05.02-isolation-levels.md"
+          },
+          {
+            "path": "09-postgresql/09.05-transactions-concurrency/09.05.03-mvcc.md",
+            "type": "file",
+            "name": "09.05.03-mvcc.md"
+          },
+          {
+            "path": "09-postgresql/09.05-transactions-concurrency/09.05.04-explicit-locking.md",
+            "type": "file",
+            "name": "09.05.04-explicit-locking.md"
+          },
+          {
+            "path": "09-postgresql/09.05-transactions-concurrency/09.05.05-deadlock-prevention.md",
+            "type": "file",
+            "name": "09.05.05-deadlock-prevention.md"
+          }
+        ],
+        "path": "09-postgresql/09.05-transactions-concurrency",
+        "type": "folder",
+        "name": "09.05-transactions-concurrency"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.06-jsonb/09.06.00-overview.md",
+            "type": "file",
+            "name": "09.06.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.06-jsonb/09.06.01-json-vs-jsonb.md",
+            "type": "file",
+            "name": "09.06.01-json-vs-jsonb.md"
+          },
+          {
+            "path": "09-postgresql/09.06-jsonb/09.06.02-jsonb-operators.md",
+            "type": "file",
+            "name": "09.06.02-jsonb-operators.md"
+          },
+          {
+            "path": "09-postgresql/09.06-jsonb/09.06.03-jsonpath-sqljson.md",
+            "type": "file",
+            "name": "09.06.03-jsonpath-sqljson.md"
+          },
+          {
+            "path": "09-postgresql/09.06-jsonb/09.06.04-jsonb-indexing.md",
+            "type": "file",
+            "name": "09.06.04-jsonb-indexing.md"
+          },
+          {
+            "path": "09-postgresql/09.06-jsonb/09.06.05-jsonb-design-patterns.md",
+            "type": "file",
+            "name": "09.06.05-jsonb-design-patterns.md"
+          }
+        ],
+        "path": "09-postgresql/09.06-jsonb",
+        "type": "folder",
+        "name": "09.06-jsonb"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.07-full-text-search/09.07.00-overview.md",
+            "type": "file",
+            "name": "09.07.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.07-full-text-search/09.07.01-tsvector-tsquery-fundamentals.md",
+            "type": "file",
+            "name": "09.07.01-tsvector-tsquery-fundamentals.md"
+          },
+          {
+            "path": "09-postgresql/09.07-full-text-search/09.07.02-text-search-configurations.md",
+            "type": "file",
+            "name": "09.07.02-text-search-configurations.md"
+          },
+          {
+            "path": "09-postgresql/09.07-full-text-search/09.07.03-indexing-full-text-search.md",
+            "type": "file",
+            "name": "09.07.03-indexing-full-text-search.md"
+          },
+          {
+            "path": "09-postgresql/09.07-full-text-search/09.07.04-ranking-relevance.md",
+            "type": "file",
+            "name": "09.07.04-ranking-relevance.md"
+          },
+          {
+            "path": "09-postgresql/09.07-full-text-search/09.07.05-advanced-search-features.md",
+            "type": "file",
+            "name": "09.07.05-advanced-search-features.md"
+          }
+        ],
+        "path": "09-postgresql/09.07-full-text-search",
+        "type": "folder",
+        "name": "09.07-full-text-search"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.08-extensions-advanced-features/09.08.00-overview.md",
+            "type": "file",
+            "name": "09.08.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.08-extensions-advanced-features/09.08.01-pg-stat-statements.md",
+            "type": "file",
+            "name": "09.08.01-pg-stat-statements.md"
+          },
+          {
+            "path": "09-postgresql/09.08-extensions-advanced-features/09.08.02-table-partitioning.md",
+            "type": "file",
+            "name": "09.08.02-table-partitioning.md"
+          },
+          {
+            "path": "09-postgresql/09.08-extensions-advanced-features/09.08.03-materialized-views.md",
+            "type": "file",
+            "name": "09.08.03-materialized-views.md"
+          },
+          {
+            "path": "09-postgresql/09.08-extensions-advanced-features/09.08.04-foreign-data-wrappers.md",
+            "type": "file",
+            "name": "09.08.04-foreign-data-wrappers.md"
+          },
+          {
+            "path": "09-postgresql/09.08-extensions-advanced-features/09.08.05-essential-extensions.md",
+            "type": "file",
+            "name": "09.08.05-essential-extensions.md"
+          }
+        ],
+        "path": "09-postgresql/09.08-extensions-advanced-features",
+        "type": "folder",
+        "name": "09.08-extensions-advanced-features"
+      },
+      {
+        "children": [
+          {
+            "path": "09-postgresql/09.09-database-design-patterns/09.09.00-overview.md",
+            "type": "file",
+            "name": "09.09.00-overview.md"
+          },
+          {
+            "path": "09-postgresql/09.09-database-design-patterns/09.09.01-normalization-fundamentals.md",
+            "type": "file",
+            "name": "09.09.01-normalization-fundamentals.md"
+          },
+          {
+            "path": "09-postgresql/09.09-database-design-patterns/09.09.02-denormalization-strategies.md",
+            "type": "file",
+            "name": "09.09.02-denormalization-strategies.md"
+          },
+          {
+            "path": "09-postgresql/09.09-database-design-patterns/09.09.03-temporal-tables-versioning.md",
+            "type": "file",
+            "name": "09.09.03-temporal-tables-versioning.md"
+          },
+          {
+            "path": "09-postgresql/09.09-database-design-patterns/09.09.04-soft-deletes-audit-logging.md",
+            "type": "file",
+            "name": "09.09.04-soft-deletes-audit-logging.md"
+          },
+          {
+            "path": "09-postgresql/09.09-database-design-patterns/09.09.05-schema-migration-practices.md",
+            "type": "file",
+            "name": "09.09.05-schema-migration-practices.md"
+          }
+        ],
+        "path": "09-postgresql/09.09-database-design-patterns",
+        "type": "folder",
+        "name": "09.09-database-design-patterns"
+      },
+      {
+        "path": "09-postgresql/09-overview.md",
+        "type": "file",
+        "name": "09-overview.md"
+      }
+    ],
+    "path": "09-postgresql",
+    "type": "folder",
+    "name": "09-postgresql"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.01-nosql-paradigms/10.01.00-overview.md",
+            "type": "file",
+            "name": "10.01.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.01-nosql-paradigms/10.01.01-document-databases.md",
+            "type": "file",
+            "name": "10.01.01-document-databases.md"
+          },
+          {
+            "path": "10-nosql/10.01-nosql-paradigms/10.01.02-key-value-stores.md",
+            "type": "file",
+            "name": "10.01.02-key-value-stores.md"
+          },
+          {
+            "path": "10-nosql/10.01-nosql-paradigms/10.01.03-column-family-stores.md",
+            "type": "file",
+            "name": "10.01.03-column-family-stores.md"
+          },
+          {
+            "path": "10-nosql/10.01-nosql-paradigms/10.01.04-graph-databases.md",
+            "type": "file",
+            "name": "10.01.04-graph-databases.md"
+          },
+          {
+            "path": "10-nosql/10.01-nosql-paradigms/10.01.05-cap-theorem-choosing.md",
+            "type": "file",
+            "name": "10.01.05-cap-theorem-choosing.md"
+          }
+        ],
+        "path": "10-nosql/10.01-nosql-paradigms",
+        "type": "folder",
+        "name": "10.01-nosql-paradigms"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.02-document-database-concepts/10.02.00-overview.md",
+            "type": "file",
+            "name": "10.02.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.02-document-database-concepts/10.02.01-documents-collections.md",
+            "type": "file",
+            "name": "10.02.01-documents-collections.md"
+          },
+          {
+            "path": "10-nosql/10.02-document-database-concepts/10.02.02-bson-data-types.md",
+            "type": "file",
+            "name": "10.02.02-bson-data-types.md"
+          },
+          {
+            "path": "10-nosql/10.02-document-database-concepts/10.02.03-schema-flexibility.md",
+            "type": "file",
+            "name": "10.02.03-schema-flexibility.md"
+          },
+          {
+            "path": "10-nosql/10.02-document-database-concepts/10.02.04-embedding-vs-referencing.md",
+            "type": "file",
+            "name": "10.02.04-embedding-vs-referencing.md"
+          },
+          {
+            "path": "10-nosql/10.02-document-database-concepts/10.02.05-document-size-atomicity.md",
+            "type": "file",
+            "name": "10.02.05-document-size-atomicity.md"
+          }
+        ],
+        "path": "10-nosql/10.02-document-database-concepts",
+        "type": "folder",
+        "name": "10.02-document-database-concepts"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.03-mongodb-fundamentals/10.03.00-overview.md",
+            "type": "file",
+            "name": "10.03.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.03-mongodb-fundamentals/10.03.01-crud-create-read.md",
+            "type": "file",
+            "name": "10.03.01-crud-create-read.md"
+          },
+          {
+            "path": "10-nosql/10.03-mongodb-fundamentals/10.03.02-crud-update-delete.md",
+            "type": "file",
+            "name": "10.03.02-crud-update-delete.md"
+          },
+          {
+            "path": "10-nosql/10.03-mongodb-fundamentals/10.03.03-query-operators.md",
+            "type": "file",
+            "name": "10.03.03-query-operators.md"
+          },
+          {
+            "path": "10-nosql/10.03-mongodb-fundamentals/10.03.04-projections-sorting.md",
+            "type": "file",
+            "name": "10.03.04-projections-sorting.md"
+          },
+          {
+            "path": "10-nosql/10.03-mongodb-fundamentals/10.03.05-shell-compass.md",
+            "type": "file",
+            "name": "10.03.05-shell-compass.md"
+          }
+        ],
+        "path": "10-nosql/10.03-mongodb-fundamentals",
+        "type": "folder",
+        "name": "10.03-mongodb-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.04-data-modeling-mongodb/10.04.00-overview.md",
+            "type": "file",
+            "name": "10.04.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.04-data-modeling-mongodb/10.04.01-one-to-one-one-to-many.md",
+            "type": "file",
+            "name": "10.04.01-one-to-one-one-to-many.md"
+          },
+          {
+            "path": "10-nosql/10.04-data-modeling-mongodb/10.04.02-many-to-many.md",
+            "type": "file",
+            "name": "10.04.02-many-to-many.md"
+          },
+          {
+            "path": "10-nosql/10.04-data-modeling-mongodb/10.04.03-embedding-patterns.md",
+            "type": "file",
+            "name": "10.04.03-embedding-patterns.md"
+          },
+          {
+            "path": "10-nosql/10.04-data-modeling-mongodb/10.04.04-reference-patterns.md",
+            "type": "file",
+            "name": "10.04.04-reference-patterns.md"
+          },
+          {
+            "path": "10-nosql/10.04-data-modeling-mongodb/10.04.05-schema-versioning.md",
+            "type": "file",
+            "name": "10.04.05-schema-versioning.md"
+          }
+        ],
+        "path": "10-nosql/10.04-data-modeling-mongodb",
+        "type": "folder",
+        "name": "10.04-data-modeling-mongodb"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.05-mongodb-aggregation/10.05.00-overview.md",
+            "type": "file",
+            "name": "10.05.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.05-mongodb-aggregation/10.05.01-pipeline-fundamentals.md",
+            "type": "file",
+            "name": "10.05.01-pipeline-fundamentals.md"
+          },
+          {
+            "path": "10-nosql/10.05-mongodb-aggregation/10.05.02-match-group.md",
+            "type": "file",
+            "name": "10.05.02-match-group.md"
+          },
+          {
+            "path": "10-nosql/10.05-mongodb-aggregation/10.05.03-project-sort-limit.md",
+            "type": "file",
+            "name": "10.05.03-project-sort-limit.md"
+          },
+          {
+            "path": "10-nosql/10.05-mongodb-aggregation/10.05.04-lookup-unwind.md",
+            "type": "file",
+            "name": "10.05.04-lookup-unwind.md"
+          },
+          {
+            "path": "10-nosql/10.05-mongodb-aggregation/10.05.05-operators-performance.md",
+            "type": "file",
+            "name": "10.05.05-operators-performance.md"
+          }
+        ],
+        "path": "10-nosql/10.05-mongodb-aggregation",
+        "type": "folder",
+        "name": "10.05-mongodb-aggregation"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.06-mongodb-indexing/10.06.00-overview.md",
+            "type": "file",
+            "name": "10.06.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.06-mongodb-indexing/10.06.01-index-fundamentals.md",
+            "type": "file",
+            "name": "10.06.01-index-fundamentals.md"
+          },
+          {
+            "path": "10-nosql/10.06-mongodb-indexing/10.06.02-compound-indexes-esr.md",
+            "type": "file",
+            "name": "10.06.02-compound-indexes-esr.md"
+          },
+          {
+            "path": "10-nosql/10.06-mongodb-indexing/10.06.03-multikey-text-indexes.md",
+            "type": "file",
+            "name": "10.06.03-multikey-text-indexes.md"
+          },
+          {
+            "path": "10-nosql/10.06-mongodb-indexing/10.06.04-explain-query-analysis.md",
+            "type": "file",
+            "name": "10.06.04-explain-query-analysis.md"
+          },
+          {
+            "path": "10-nosql/10.06-mongodb-indexing/10.06.05-index-optimization.md",
+            "type": "file",
+            "name": "10.06.05-index-optimization.md"
+          }
+        ],
+        "path": "10-nosql/10.06-mongodb-indexing",
+        "type": "folder",
+        "name": "10.06-mongodb-indexing"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.07-mongodb-dotnet/10.07.00-overview.md",
+            "type": "file",
+            "name": "10.07.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.07-mongodb-dotnet/10.07.01-driver-setup-crud.md",
+            "type": "file",
+            "name": "10.07.01-driver-setup-crud.md"
+          },
+          {
+            "path": "10-nosql/10.07-mongodb-dotnet/10.07.02-linq-queries.md",
+            "type": "file",
+            "name": "10.07.02-linq-queries.md"
+          },
+          {
+            "path": "10-nosql/10.07-mongodb-dotnet/10.07.03-bson-serialization.md",
+            "type": "file",
+            "name": "10.07.03-bson-serialization.md"
+          },
+          {
+            "path": "10-nosql/10.07-mongodb-dotnet/10.07.04-connection-management.md",
+            "type": "file",
+            "name": "10.07.04-connection-management.md"
+          },
+          {
+            "path": "10-nosql/10.07-mongodb-dotnet/10.07.05-aspnet-transactions.md",
+            "type": "file",
+            "name": "10.07.05-aspnet-transactions.md"
+          }
+        ],
+        "path": "10-nosql/10.07-mongodb-dotnet",
+        "type": "folder",
+        "name": "10.07-mongodb-dotnet"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.08-redis-caching/10.08.00-overview.md",
+            "type": "file",
+            "name": "10.08.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.08-redis-caching/10.08.01-redis-fundamentals.md",
+            "type": "file",
+            "name": "10.08.01-redis-fundamentals.md"
+          },
+          {
+            "path": "10-nosql/10.08-redis-caching/10.08.02-expiration-eviction.md",
+            "type": "file",
+            "name": "10.08.02-expiration-eviction.md"
+          },
+          {
+            "path": "10-nosql/10.08-redis-caching/10.08.03-caching-patterns.md",
+            "type": "file",
+            "name": "10.08.03-caching-patterns.md"
+          },
+          {
+            "path": "10-nosql/10.08-redis-caching/10.08.04-redis-dotnet.md",
+            "type": "file",
+            "name": "10.08.04-redis-dotnet.md"
+          },
+          {
+            "path": "10-nosql/10.08-redis-caching/10.08.05-pubsub-advanced.md",
+            "type": "file",
+            "name": "10.08.05-pubsub-advanced.md"
+          }
+        ],
+        "path": "10-nosql/10.08-redis-caching",
+        "type": "folder",
+        "name": "10.08-redis-caching"
+      },
+      {
+        "children": [
+          {
+            "path": "10-nosql/10.09-choosing-sql-nosql/10.09.00-overview.md",
+            "type": "file",
+            "name": "10.09.00-overview.md"
+          },
+          {
+            "path": "10-nosql/10.09-choosing-sql-nosql/10.09.01-data-model-considerations.md",
+            "type": "file",
+            "name": "10.09.01-data-model-considerations.md"
+          },
+          {
+            "path": "10-nosql/10.09-choosing-sql-nosql/10.09.02-consistency-cap-theorem.md",
+            "type": "file",
+            "name": "10.09.02-consistency-cap-theorem.md"
+          },
+          {
+            "path": "10-nosql/10.09-choosing-sql-nosql/10.09.03-scalability-performance.md",
+            "type": "file",
+            "name": "10.09.03-scalability-performance.md"
+          },
+          {
+            "path": "10-nosql/10.09-choosing-sql-nosql/10.09.04-query-patterns-workloads.md",
+            "type": "file",
+            "name": "10.09.04-query-patterns-workloads.md"
+          },
+          {
+            "path": "10-nosql/10.09-choosing-sql-nosql/10.09.05-polyglot-decision-framework.md",
+            "type": "file",
+            "name": "10.09.05-polyglot-decision-framework.md"
+          }
+        ],
+        "path": "10-nosql/10.09-choosing-sql-nosql",
+        "type": "folder",
+        "name": "10.09-choosing-sql-nosql"
+      },
+      {
+        "path": "10-nosql/10-overview.md",
+        "type": "file",
+        "name": "10-overview.md"
+      }
+    ],
+    "path": "10-nosql",
+    "type": "folder",
+    "name": "10-nosql"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "11-security/11.01-security-mindset/11.01.00-overview.md",
+            "type": "file",
+            "name": "11.01.00-overview.md"
+          },
+          {
+            "path": "11-security/11.01-security-mindset/11.01.01-defense-in-depth.md",
+            "type": "file",
+            "name": "11.01.01-defense-in-depth.md"
+          },
+          {
+            "path": "11-security/11.01-security-mindset/11.01.02-least-privilege.md",
+            "type": "file",
+            "name": "11.01.02-least-privilege.md"
+          },
+          {
+            "path": "11-security/11.01-security-mindset/11.01.03-fail-safe-defaults.md",
+            "type": "file",
+            "name": "11.01.03-fail-safe-defaults.md"
+          },
+          {
+            "path": "11-security/11.01-security-mindset/11.01.04-trust-boundaries.md",
+            "type": "file",
+            "name": "11.01.04-trust-boundaries.md"
+          },
+          {
+            "path": "11-security/11.01-security-mindset/11.01.05-threat-modeling.md",
+            "type": "file",
+            "name": "11.01.05-threat-modeling.md"
+          }
+        ],
+        "path": "11-security/11.01-security-mindset",
+        "type": "folder",
+        "name": "11.01-security-mindset"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.00-overview.md",
+            "type": "file",
+            "name": "11.02.00-overview.md"
+          },
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.01-overview-broken-access-control.md",
+            "type": "file",
+            "name": "11.02.01-overview-broken-access-control.md"
+          },
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.02-security-misconfiguration.md",
+            "type": "file",
+            "name": "11.02.02-security-misconfiguration.md"
+          },
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.03-injection-attacks.md",
+            "type": "file",
+            "name": "11.02.03-injection-attacks.md"
+          },
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.04-cryptographic-failures.md",
+            "type": "file",
+            "name": "11.02.04-cryptographic-failures.md"
+          },
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.05-cross-site-scripting.md",
+            "type": "file",
+            "name": "11.02.05-cross-site-scripting.md"
+          },
+          {
+            "path": "11-security/11.02-owasp-top-10/11.02.06-insecure-design-supply-chain.md",
+            "type": "file",
+            "name": "11.02.06-insecure-design-supply-chain.md"
+          }
+        ],
+        "path": "11-security/11.02-owasp-top-10",
+        "type": "folder",
+        "name": "11.02-owasp-top-10"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.03-authentication-fundamentals/11.03.00-overview.md",
+            "type": "file",
+            "name": "11.03.00-overview.md"
+          },
+          {
+            "path": "11-security/11.03-authentication-fundamentals/11.03.01-password-hashing.md",
+            "type": "file",
+            "name": "11.03.01-password-hashing.md"
+          },
+          {
+            "path": "11-security/11.03-authentication-fundamentals/11.03.02-session-management.md",
+            "type": "file",
+            "name": "11.03.02-session-management.md"
+          },
+          {
+            "path": "11-security/11.03-authentication-fundamentals/11.03.03-multi-factor-authentication.md",
+            "type": "file",
+            "name": "11.03.03-multi-factor-authentication.md"
+          },
+          {
+            "path": "11-security/11.03-authentication-fundamentals/11.03.04-brute-force-protection.md",
+            "type": "file",
+            "name": "11.03.04-brute-force-protection.md"
+          },
+          {
+            "path": "11-security/11.03-authentication-fundamentals/11.03.05-account-enumeration.md",
+            "type": "file",
+            "name": "11.03.05-account-enumeration.md"
+          }
+        ],
+        "path": "11-security/11.03-authentication-fundamentals",
+        "type": "folder",
+        "name": "11.03-authentication-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.04-oauth-oidc/11.04.00-overview.md",
+            "type": "file",
+            "name": "11.04.00-overview.md"
+          },
+          {
+            "path": "11-security/11.04-oauth-oidc/11.04.01-oauth-grant-types.md",
+            "type": "file",
+            "name": "11.04.01-oauth-grant-types.md"
+          },
+          {
+            "path": "11-security/11.04-oauth-oidc/11.04.02-authorization-code-pkce.md",
+            "type": "file",
+            "name": "11.04.02-authorization-code-pkce.md"
+          },
+          {
+            "path": "11-security/11.04-oauth-oidc/11.04.03-openid-connect-fundamentals.md",
+            "type": "file",
+            "name": "11.04.03-openid-connect-fundamentals.md"
+          },
+          {
+            "path": "11-security/11.04-oauth-oidc/11.04.04-access-id-tokens.md",
+            "type": "file",
+            "name": "11.04.04-access-id-tokens.md"
+          },
+          {
+            "path": "11-security/11.04-oauth-oidc/11.04.05-token-validation.md",
+            "type": "file",
+            "name": "11.04.05-token-validation.md"
+          }
+        ],
+        "path": "11-security/11.04-oauth-oidc",
+        "type": "folder",
+        "name": "11.04-oauth-oidc"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.05-jwt-security/11.05.00-overview.md",
+            "type": "file",
+            "name": "11.05.00-overview.md"
+          },
+          {
+            "path": "11-security/11.05-jwt-security/11.05.01-jwt-structure.md",
+            "type": "file",
+            "name": "11.05.01-jwt-structure.md"
+          },
+          {
+            "path": "11-security/11.05-jwt-security/11.05.02-signing-algorithms.md",
+            "type": "file",
+            "name": "11.05.02-signing-algorithms.md"
+          },
+          {
+            "path": "11-security/11.05-jwt-security/11.05.03-validation-claims.md",
+            "type": "file",
+            "name": "11.05.03-validation-claims.md"
+          },
+          {
+            "path": "11-security/11.05-jwt-security/11.05.04-jwt-vulnerabilities.md",
+            "type": "file",
+            "name": "11.05.04-jwt-vulnerabilities.md"
+          },
+          {
+            "path": "11-security/11.05-jwt-security/11.05.05-storage-best-practices.md",
+            "type": "file",
+            "name": "11.05.05-storage-best-practices.md"
+          }
+        ],
+        "path": "11-security/11.05-jwt-security",
+        "type": "folder",
+        "name": "11.05-jwt-security"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.06-authorization-patterns/11.06.00-overview.md",
+            "type": "file",
+            "name": "11.06.00-overview.md"
+          },
+          {
+            "path": "11-security/11.06-authorization-patterns/11.06.01-rbac.md",
+            "type": "file",
+            "name": "11.06.01-rbac.md"
+          },
+          {
+            "path": "11-security/11.06-authorization-patterns/11.06.02-claims-based-authorization.md",
+            "type": "file",
+            "name": "11.06.02-claims-based-authorization.md"
+          },
+          {
+            "path": "11-security/11.06-authorization-patterns/11.06.03-policy-based-authorization.md",
+            "type": "file",
+            "name": "11.06.03-policy-based-authorization.md"
+          },
+          {
+            "path": "11-security/11.06-authorization-patterns/11.06.04-abac-resource-based.md",
+            "type": "file",
+            "name": "11.06.04-abac-resource-based.md"
+          },
+          {
+            "path": "11-security/11.06-authorization-patterns/11.06.05-centralized-authorization.md",
+            "type": "file",
+            "name": "11.06.05-centralized-authorization.md"
+          }
+        ],
+        "path": "11-security/11.06-authorization-patterns",
+        "type": "folder",
+        "name": "11.06-authorization-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.07-secure-coding-practices/11.07.00-overview.md",
+            "type": "file",
+            "name": "11.07.00-overview.md"
+          },
+          {
+            "path": "11-security/11.07-secure-coding-practices/11.07.01-input-validation.md",
+            "type": "file",
+            "name": "11.07.01-input-validation.md"
+          },
+          {
+            "path": "11-security/11.07-secure-coding-practices/11.07.02-output-encoding.md",
+            "type": "file",
+            "name": "11.07.02-output-encoding.md"
+          },
+          {
+            "path": "11-security/11.07-secure-coding-practices/11.07.03-parameterized-queries.md",
+            "type": "file",
+            "name": "11.07.03-parameterized-queries.md"
+          },
+          {
+            "path": "11-security/11.07-secure-coding-practices/11.07.04-secure-configuration.md",
+            "type": "file",
+            "name": "11.07.04-secure-configuration.md"
+          },
+          {
+            "path": "11-security/11.07-secure-coding-practices/11.07.05-error-handling-logging.md",
+            "type": "file",
+            "name": "11.07.05-error-handling-logging.md"
+          }
+        ],
+        "path": "11-security/11.07-secure-coding-practices",
+        "type": "folder",
+        "name": "11.07-secure-coding-practices"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.08-cryptography-developers/11.08.00-overview.md",
+            "type": "file",
+            "name": "11.08.00-overview.md"
+          },
+          {
+            "path": "11-security/11.08-cryptography-developers/11.08.01-symmetric-encryption-aes.md",
+            "type": "file",
+            "name": "11.08.01-symmetric-encryption-aes.md"
+          },
+          {
+            "path": "11-security/11.08-cryptography-developers/11.08.02-asymmetric-encryption-rsa.md",
+            "type": "file",
+            "name": "11.08.02-asymmetric-encryption-rsa.md"
+          },
+          {
+            "path": "11-security/11.08-cryptography-developers/11.08.03-hashing-hmac.md",
+            "type": "file",
+            "name": "11.08.03-hashing-hmac.md"
+          },
+          {
+            "path": "11-security/11.08-cryptography-developers/11.08.04-digital-signatures.md",
+            "type": "file",
+            "name": "11.08.04-digital-signatures.md"
+          },
+          {
+            "path": "11-security/11.08-cryptography-developers/11.08.05-tls-https.md",
+            "type": "file",
+            "name": "11.08.05-tls-https.md"
+          }
+        ],
+        "path": "11-security/11.08-cryptography-developers",
+        "type": "folder",
+        "name": "11.08-cryptography-developers"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.09-secrets-management/11.09.00-overview.md",
+            "type": "file",
+            "name": "11.09.00-overview.md"
+          },
+          {
+            "path": "11-security/11.09-secrets-management/11.09.01-secrets-in-version-control.md",
+            "type": "file",
+            "name": "11.09.01-secrets-in-version-control.md"
+          },
+          {
+            "path": "11-security/11.09-secrets-management/11.09.02-environment-variables.md",
+            "type": "file",
+            "name": "11.09.02-environment-variables.md"
+          },
+          {
+            "path": "11-security/11.09-secrets-management/11.09.03-azure-key-vault.md",
+            "type": "file",
+            "name": "11.09.03-azure-key-vault.md"
+          },
+          {
+            "path": "11-security/11.09-secrets-management/11.09.04-hashicorp-vault.md",
+            "type": "file",
+            "name": "11.09.04-hashicorp-vault.md"
+          },
+          {
+            "path": "11-security/11.09-secrets-management/11.09.05-secret-rotation-kubernetes.md",
+            "type": "file",
+            "name": "11.09.05-secret-rotation-kubernetes.md"
+          }
+        ],
+        "path": "11-security/11.09-secrets-management",
+        "type": "folder",
+        "name": "11.09-secrets-management"
+      },
+      {
+        "children": [
+          {
+            "path": "11-security/11.10-security-testing/11.10.00-overview.md",
+            "type": "file",
+            "name": "11.10.00-overview.md"
+          },
+          {
+            "path": "11-security/11.10-security-testing/11.10.01-sast.md",
+            "type": "file",
+            "name": "11.10.01-sast.md"
+          },
+          {
+            "path": "11-security/11.10-security-testing/11.10.02-dast.md",
+            "type": "file",
+            "name": "11.10.02-dast.md"
+          },
+          {
+            "path": "11-security/11.10-security-testing/11.10.03-dependency-scanning.md",
+            "type": "file",
+            "name": "11.10.03-dependency-scanning.md"
+          },
+          {
+            "path": "11-security/11.10-security-testing/11.10.04-security-code-review.md",
+            "type": "file",
+            "name": "11.10.04-security-code-review.md"
+          },
+          {
+            "path": "11-security/11.10-security-testing/11.10.05-penetration-testing.md",
+            "type": "file",
+            "name": "11.10.05-penetration-testing.md"
+          }
+        ],
+        "path": "11-security/11.10-security-testing",
+        "type": "folder",
+        "name": "11.10-security-testing"
+      },
+      {
+        "path": "11-security/11-overview.md",
+        "type": "file",
+        "name": "11-overview.md"
+      }
+    ],
+    "path": "11-security",
+    "type": "folder",
+    "name": "11-security"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "12-performance/12.01-performance-fundamentals/12.01.00-overview.md",
+            "type": "file",
+            "name": "12.01.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.01-performance-fundamentals/12.01.01-performance-requirements.md",
+            "type": "file",
+            "name": "12.01.01-performance-requirements.md"
+          },
+          {
+            "path": "12-performance/12.01-performance-fundamentals/12.01.02-latency-throughput.md",
+            "type": "file",
+            "name": "12.01.02-latency-throughput.md"
+          },
+          {
+            "path": "12-performance/12.01-performance-fundamentals/12.01.03-percentiles.md",
+            "type": "file",
+            "name": "12.01.03-percentiles.md"
+          },
+          {
+            "path": "12-performance/12.01-performance-fundamentals/12.01.04-resource-utilization.md",
+            "type": "file",
+            "name": "12.01.04-resource-utilization.md"
+          },
+          {
+            "path": "12-performance/12.01-performance-fundamentals/12.01.05-testing-vs-monitoring.md",
+            "type": "file",
+            "name": "12.01.05-testing-vs-monitoring.md"
+          }
+        ],
+        "path": "12-performance/12.01-performance-fundamentals",
+        "type": "folder",
+        "name": "12.01-performance-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.02-profiling-dotnet/12.02.00-overview.md",
+            "type": "file",
+            "name": "12.02.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.02-profiling-dotnet/12.02.01-cpu-profiling.md",
+            "type": "file",
+            "name": "12.02.01-cpu-profiling.md"
+          },
+          {
+            "path": "12-performance/12.02-profiling-dotnet/12.02.02-memory-profiling.md",
+            "type": "file",
+            "name": "12.02.02-memory-profiling.md"
+          },
+          {
+            "path": "12-performance/12.02-profiling-dotnet/12.02.03-allocation-tracking.md",
+            "type": "file",
+            "name": "12.02.03-allocation-tracking.md"
+          },
+          {
+            "path": "12-performance/12.02-profiling-dotnet/12.02.04-flame-graphs.md",
+            "type": "file",
+            "name": "12.02.04-flame-graphs.md"
+          },
+          {
+            "path": "12-performance/12.02-profiling-dotnet/12.02.05-production-profiling.md",
+            "type": "file",
+            "name": "12.02.05-production-profiling.md"
+          }
+        ],
+        "path": "12-performance/12.02-profiling-dotnet",
+        "type": "folder",
+        "name": "12.02-profiling-dotnet"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.03-benchmarking-benchmarkdotnet/12.03.00-overview.md",
+            "type": "file",
+            "name": "12.03.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.03-benchmarking-benchmarkdotnet/12.03.01-benchmark-setup.md",
+            "type": "file",
+            "name": "12.03.01-benchmark-setup.md"
+          },
+          {
+            "path": "12-performance/12.03-benchmarking-benchmarkdotnet/12.03.02-memory-diagnosers.md",
+            "type": "file",
+            "name": "12.03.02-memory-diagnosers.md"
+          },
+          {
+            "path": "12-performance/12.03-benchmarking-benchmarkdotnet/12.03.03-parameterized-benchmarks.md",
+            "type": "file",
+            "name": "12.03.03-parameterized-benchmarks.md"
+          },
+          {
+            "path": "12-performance/12.03-benchmarking-benchmarkdotnet/12.03.04-comparing-implementations.md",
+            "type": "file",
+            "name": "12.03.04-comparing-implementations.md"
+          }
+        ],
+        "path": "12-performance/12.03-benchmarking-benchmarkdotnet",
+        "type": "folder",
+        "name": "12.03-benchmarking-benchmarkdotnet"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.04-memory-management-gc/12.04.00-overview.md",
+            "type": "file",
+            "name": "12.04.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.04-memory-management-gc/12.04.01-gc-generations.md",
+            "type": "file",
+            "name": "12.04.01-gc-generations.md"
+          },
+          {
+            "path": "12-performance/12.04-memory-management-gc/12.04.02-large-object-heap.md",
+            "type": "file",
+            "name": "12.04.02-large-object-heap.md"
+          },
+          {
+            "path": "12-performance/12.04-memory-management-gc/12.04.03-gc-modes.md",
+            "type": "file",
+            "name": "12.04.03-gc-modes.md"
+          },
+          {
+            "path": "12-performance/12.04-memory-management-gc/12.04.04-reducing-allocations.md",
+            "type": "file",
+            "name": "12.04.04-reducing-allocations.md"
+          },
+          {
+            "path": "12-performance/12.04-memory-management-gc/12.04.05-object-pooling.md",
+            "type": "file",
+            "name": "12.04.05-object-pooling.md"
+          }
+        ],
+        "path": "12-performance/12.04-memory-management-gc",
+        "type": "folder",
+        "name": "12.04-memory-management-gc"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.05-caching-strategies/12.05.00-overview.md",
+            "type": "file",
+            "name": "12.05.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.05-caching-strategies/12.05.01-in-memory-caching.md",
+            "type": "file",
+            "name": "12.05.01-in-memory-caching.md"
+          },
+          {
+            "path": "12-performance/12.05-caching-strategies/12.05.02-cache-aside-pattern.md",
+            "type": "file",
+            "name": "12.05.02-cache-aside-pattern.md"
+          },
+          {
+            "path": "12-performance/12.05-caching-strategies/12.05.03-distributed-caching-redis.md",
+            "type": "file",
+            "name": "12.05.03-distributed-caching-redis.md"
+          },
+          {
+            "path": "12-performance/12.05-caching-strategies/12.05.04-cache-invalidation.md",
+            "type": "file",
+            "name": "12.05.04-cache-invalidation.md"
+          },
+          {
+            "path": "12-performance/12.05-caching-strategies/12.05.05-write-patterns.md",
+            "type": "file",
+            "name": "12.05.05-write-patterns.md"
+          }
+        ],
+        "path": "12-performance/12.05-caching-strategies",
+        "type": "folder",
+        "name": "12.05-caching-strategies"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.06-database-performance/12.06.00-overview.md",
+            "type": "file",
+            "name": "12.06.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.06-database-performance/12.06.01-query-optimization.md",
+            "type": "file",
+            "name": "12.06.01-query-optimization.md"
+          },
+          {
+            "path": "12-performance/12.06-database-performance/12.06.02-connection-pooling.md",
+            "type": "file",
+            "name": "12.06.02-connection-pooling.md"
+          },
+          {
+            "path": "12-performance/12.06-database-performance/12.06.03-n-plus-one-problem.md",
+            "type": "file",
+            "name": "12.06.03-n-plus-one-problem.md"
+          },
+          {
+            "path": "12-performance/12.06-database-performance/12.06.04-batch-operations.md",
+            "type": "file",
+            "name": "12.06.04-batch-operations.md"
+          },
+          {
+            "path": "12-performance/12.06-database-performance/12.06.05-ef-core-best-practices.md",
+            "type": "file",
+            "name": "12.06.05-ef-core-best-practices.md"
+          }
+        ],
+        "path": "12-performance/12.06-database-performance",
+        "type": "folder",
+        "name": "12.06-database-performance"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.07-async-concurrency/12.07.00-overview.md",
+            "type": "file",
+            "name": "12.07.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.07-async-concurrency/12.07.01-async-overhead.md",
+            "type": "file",
+            "name": "12.07.01-async-overhead.md"
+          },
+          {
+            "path": "12-performance/12.07-async-concurrency/12.07.02-configureawait.md",
+            "type": "file",
+            "name": "12.07.02-configureawait.md"
+          },
+          {
+            "path": "12-performance/12.07-async-concurrency/12.07.03-parallel-processing.md",
+            "type": "file",
+            "name": "12.07.03-parallel-processing.md"
+          },
+          {
+            "path": "12-performance/12.07-async-concurrency/12.07.04-channels.md",
+            "type": "file",
+            "name": "12.07.04-channels.md"
+          },
+          {
+            "path": "12-performance/12.07-async-concurrency/12.07.05-async-antipatterns.md",
+            "type": "file",
+            "name": "12.07.05-async-antipatterns.md"
+          }
+        ],
+        "path": "12-performance/12.07-async-concurrency",
+        "type": "folder",
+        "name": "12.07-async-concurrency"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.08-load-testing/12.08.00-overview.md",
+            "type": "file",
+            "name": "12.08.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.08-load-testing/12.08.01-fundamentals-types.md",
+            "type": "file",
+            "name": "12.08.01-fundamentals-types.md"
+          },
+          {
+            "path": "12-performance/12.08-load-testing/12.08.02-scenario-design.md",
+            "type": "file",
+            "name": "12.08.02-scenario-design.md"
+          },
+          {
+            "path": "12-performance/12.08-load-testing/12.08.03-k6-load-testing.md",
+            "type": "file",
+            "name": "12.08.03-k6-load-testing.md"
+          },
+          {
+            "path": "12-performance/12.08-load-testing/12.08.04-nbomber.md",
+            "type": "file",
+            "name": "12.08.04-nbomber.md"
+          },
+          {
+            "path": "12-performance/12.08-load-testing/12.08.05-analyzing-results.md",
+            "type": "file",
+            "name": "12.08.05-analyzing-results.md"
+          }
+        ],
+        "path": "12-performance/12.08-load-testing",
+        "type": "folder",
+        "name": "12.08-load-testing"
+      },
+      {
+        "children": [
+          {
+            "path": "12-performance/12.09-scalability-patterns/12.09.00-overview.md",
+            "type": "file",
+            "name": "12.09.00-overview.md"
+          },
+          {
+            "path": "12-performance/12.09-scalability-patterns/12.09.01-horizontal-vertical-scaling.md",
+            "type": "file",
+            "name": "12.09.01-horizontal-vertical-scaling.md"
+          },
+          {
+            "path": "12-performance/12.09-scalability-patterns/12.09.02-stateless-services.md",
+            "type": "file",
+            "name": "12.09.02-stateless-services.md"
+          },
+          {
+            "path": "12-performance/12.09-scalability-patterns/12.09.03-database-scaling.md",
+            "type": "file",
+            "name": "12.09.03-database-scaling.md"
+          },
+          {
+            "path": "12-performance/12.09-scalability-patterns/12.09.04-load-balancing-autoscaling.md",
+            "type": "file",
+            "name": "12.09.04-load-balancing-autoscaling.md"
+          },
+          {
+            "path": "12-performance/12.09-scalability-patterns/12.09.05-identifying-bottlenecks.md",
+            "type": "file",
+            "name": "12.09.05-identifying-bottlenecks.md"
+          }
+        ],
+        "path": "12-performance/12.09-scalability-patterns",
+        "type": "folder",
+        "name": "12.09-scalability-patterns"
+      },
+      {
+        "path": "12-performance/12-overview.md",
+        "type": "file",
+        "name": "12-overview.md"
+      }
+    ],
+    "path": "12-performance",
+    "type": "folder",
+    "name": "12-performance"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.01-devops-culture-principles/13.01.00-overview.md",
+            "type": "file",
+            "name": "13.01.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.01-devops-culture-principles/13.01.01-understanding-devops-culture.md",
+            "type": "file",
+            "name": "13.01.01-understanding-devops-culture.md"
+          },
+          {
+            "path": "13-devops-iac/13.01-devops-culture-principles/13.01.02-calms-framework.md",
+            "type": "file",
+            "name": "13.01.02-calms-framework.md"
+          },
+          {
+            "path": "13-devops-iac/13.01-devops-culture-principles/13.01.03-breaking-silos-collaboration.md",
+            "type": "file",
+            "name": "13.01.03-breaking-silos-collaboration.md"
+          },
+          {
+            "path": "13-devops-iac/13.01-devops-culture-principles/13.01.04-shared-responsibility-team-structures.md",
+            "type": "file",
+            "name": "13.01.04-shared-responsibility-team-structures.md"
+          },
+          {
+            "path": "13-devops-iac/13.01-devops-culture-principles/13.01.05-continuous-improvement-feedback.md",
+            "type": "file",
+            "name": "13.01.05-continuous-improvement-feedback.md"
+          }
+        ],
+        "path": "13-devops-iac/13.01-devops-culture-principles",
+        "type": "folder",
+        "name": "13.01-devops-culture-principles"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.02-cicd-pipeline-design/13.02.00-overview.md",
+            "type": "file",
+            "name": "13.02.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.02-cicd-pipeline-design/13.02.01-pipeline-architecture-stages.md",
+            "type": "file",
+            "name": "13.02.01-pipeline-architecture-stages.md"
+          },
+          {
+            "path": "13-devops-iac/13.02-cicd-pipeline-design/13.02.02-automated-testing-pipelines.md",
+            "type": "file",
+            "name": "13.02.02-automated-testing-pipelines.md"
+          },
+          {
+            "path": "13-devops-iac/13.02-cicd-pipeline-design/13.02.03-artifact-management-versioning.md",
+            "type": "file",
+            "name": "13.02.03-artifact-management-versioning.md"
+          },
+          {
+            "path": "13-devops-iac/13.02-cicd-pipeline-design/13.02.04-environment-promotion-deployment.md",
+            "type": "file",
+            "name": "13.02.04-environment-promotion-deployment.md"
+          },
+          {
+            "path": "13-devops-iac/13.02-cicd-pipeline-design/13.02.05-pipeline-as-code-branching.md",
+            "type": "file",
+            "name": "13.02.05-pipeline-as-code-branching.md"
+          }
+        ],
+        "path": "13-devops-iac/13.02-cicd-pipeline-design",
+        "type": "folder",
+        "name": "13.02-cicd-pipeline-design"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.03-github-actions/13.03.00-overview.md",
+            "type": "file",
+            "name": "13.03.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.03-github-actions/13.03.01-workflow-syntax-triggers.md",
+            "type": "file",
+            "name": "13.03.01-workflow-syntax-triggers.md"
+          },
+          {
+            "path": "13-devops-iac/13.03-github-actions/13.03.02-jobs-steps-actions.md",
+            "type": "file",
+            "name": "13.03.02-jobs-steps-actions.md"
+          },
+          {
+            "path": "13-devops-iac/13.03-github-actions/13.03.03-secrets-environment.md",
+            "type": "file",
+            "name": "13.03.03-secrets-environment.md"
+          },
+          {
+            "path": "13-devops-iac/13.03-github-actions/13.03.04-matrix-builds.md",
+            "type": "file",
+            "name": "13.03.04-matrix-builds.md"
+          },
+          {
+            "path": "13-devops-iac/13.03-github-actions/13.03.05-reusable-workflows.md",
+            "type": "file",
+            "name": "13.03.05-reusable-workflows.md"
+          }
+        ],
+        "path": "13-devops-iac/13.03-github-actions",
+        "type": "folder",
+        "name": "13.03-github-actions"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.04-gitlab-cicd/13.04.00-overview.md",
+            "type": "file",
+            "name": "13.04.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.04-gitlab-cicd/13.04.01-configuration-basics.md",
+            "type": "file",
+            "name": "13.04.01-configuration-basics.md"
+          },
+          {
+            "path": "13-devops-iac/13.04-gitlab-cicd/13.04.02-stages-jobs-dependencies.md",
+            "type": "file",
+            "name": "13.04.02-stages-jobs-dependencies.md"
+          },
+          {
+            "path": "13-devops-iac/13.04-gitlab-cicd/13.04.03-artifacts-caching.md",
+            "type": "file",
+            "name": "13.04.03-artifacts-caching.md"
+          },
+          {
+            "path": "13-devops-iac/13.04-gitlab-cicd/13.04.04-environments-deployments.md",
+            "type": "file",
+            "name": "13.04.04-environments-deployments.md"
+          },
+          {
+            "path": "13-devops-iac/13.04-gitlab-cicd/13.04.05-runners-advanced.md",
+            "type": "file",
+            "name": "13.04.05-runners-advanced.md"
+          }
+        ],
+        "path": "13-devops-iac/13.04-gitlab-cicd",
+        "type": "folder",
+        "name": "13.04-gitlab-cicd"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.05-iac-principles/13.05.00-overview.md",
+            "type": "file",
+            "name": "13.05.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.05-iac-principles/13.05.01-declarative-imperative.md",
+            "type": "file",
+            "name": "13.05.01-declarative-imperative.md"
+          },
+          {
+            "path": "13-devops-iac/13.05-iac-principles/13.05.02-idempotency.md",
+            "type": "file",
+            "name": "13.05.02-idempotency.md"
+          },
+          {
+            "path": "13-devops-iac/13.05-iac-principles/13.05.03-state-management.md",
+            "type": "file",
+            "name": "13.05.03-state-management.md"
+          },
+          {
+            "path": "13-devops-iac/13.05-iac-principles/13.05.04-drift-detection.md",
+            "type": "file",
+            "name": "13.05.04-drift-detection.md"
+          },
+          {
+            "path": "13-devops-iac/13.05-iac-principles/13.05.05-testing-iac.md",
+            "type": "file",
+            "name": "13.05.05-testing-iac.md"
+          }
+        ],
+        "path": "13-devops-iac/13.05-iac-principles",
+        "type": "folder",
+        "name": "13.05-iac-principles"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.06-terraform-fundamentals/13.06.00-overview.md",
+            "type": "file",
+            "name": "13.06.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.06-terraform-fundamentals/13.06.01-hcl-syntax-basics.md",
+            "type": "file",
+            "name": "13.06.01-hcl-syntax-basics.md"
+          },
+          {
+            "path": "13-devops-iac/13.06-terraform-fundamentals/13.06.02-providers-resources.md",
+            "type": "file",
+            "name": "13.06.02-providers-resources.md"
+          },
+          {
+            "path": "13-devops-iac/13.06-terraform-fundamentals/13.06.03-variables-outputs.md",
+            "type": "file",
+            "name": "13.06.03-variables-outputs.md"
+          },
+          {
+            "path": "13-devops-iac/13.06-terraform-fundamentals/13.06.04-data-sources-dependencies.md",
+            "type": "file",
+            "name": "13.06.04-data-sources-dependencies.md"
+          },
+          {
+            "path": "13-devops-iac/13.06-terraform-fundamentals/13.06.05-terraform-workflow.md",
+            "type": "file",
+            "name": "13.06.05-terraform-workflow.md"
+          }
+        ],
+        "path": "13-devops-iac/13.06-terraform-fundamentals",
+        "type": "folder",
+        "name": "13.06-terraform-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.07-terraform-advanced/13.07.00-overview.md",
+            "type": "file",
+            "name": "13.07.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.07-terraform-advanced/13.07.01-module-design.md",
+            "type": "file",
+            "name": "13.07.01-module-design.md"
+          },
+          {
+            "path": "13-devops-iac/13.07-terraform-advanced/13.07.02-workspaces-environments.md",
+            "type": "file",
+            "name": "13.07.02-workspaces-environments.md"
+          },
+          {
+            "path": "13-devops-iac/13.07-terraform-advanced/13.07.03-remote-state.md",
+            "type": "file",
+            "name": "13.07.03-remote-state.md"
+          },
+          {
+            "path": "13-devops-iac/13.07-terraform-advanced/13.07.04-state-locking-collaboration.md",
+            "type": "file",
+            "name": "13.07.04-state-locking-collaboration.md"
+          },
+          {
+            "path": "13-devops-iac/13.07-terraform-advanced/13.07.05-terraform-cloud-best-practices.md",
+            "type": "file",
+            "name": "13.07.05-terraform-cloud-best-practices.md"
+          }
+        ],
+        "path": "13-devops-iac/13.07-terraform-advanced",
+        "type": "folder",
+        "name": "13.07-terraform-advanced"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.08-ansible/13.08.00-overview.md",
+            "type": "file",
+            "name": "13.08.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.08-ansible/13.08.01-ansible-architecture.md",
+            "type": "file",
+            "name": "13.08.01-ansible-architecture.md"
+          },
+          {
+            "path": "13-devops-iac/13.08-ansible/13.08.02-inventory-host-management.md",
+            "type": "file",
+            "name": "13.08.02-inventory-host-management.md"
+          },
+          {
+            "path": "13-devops-iac/13.08-ansible/13.08.03-playbooks-tasks.md",
+            "type": "file",
+            "name": "13.08.03-playbooks-tasks.md"
+          },
+          {
+            "path": "13-devops-iac/13.08-ansible/13.08.04-roles-organization.md",
+            "type": "file",
+            "name": "13.08.04-roles-organization.md"
+          },
+          {
+            "path": "13-devops-iac/13.08-ansible/13.08.05-idempotency-best-practices.md",
+            "type": "file",
+            "name": "13.08.05-idempotency-best-practices.md"
+          }
+        ],
+        "path": "13-devops-iac/13.08-ansible",
+        "type": "folder",
+        "name": "13.08-ansible"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.09-gitops-practices/13.09.00-overview.md",
+            "type": "file",
+            "name": "13.09.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.09-gitops-practices/13.09.01-gitops-principles-foundations.md",
+            "type": "file",
+            "name": "13.09.01-gitops-principles-foundations.md"
+          },
+          {
+            "path": "13-devops-iac/13.09-gitops-practices/13.09.02-pull-push-deployment.md",
+            "type": "file",
+            "name": "13.09.02-pull-push-deployment.md"
+          },
+          {
+            "path": "13-devops-iac/13.09-gitops-practices/13.09.03-declarative-configuration.md",
+            "type": "file",
+            "name": "13.09.03-declarative-configuration.md"
+          },
+          {
+            "path": "13-devops-iac/13.09-gitops-practices/13.09.04-automated-reconciliation.md",
+            "type": "file",
+            "name": "13.09.04-automated-reconciliation.md"
+          },
+          {
+            "path": "13-devops-iac/13.09-gitops-practices/13.09.05-gitops-tools.md",
+            "type": "file",
+            "name": "13.09.05-gitops-tools.md"
+          }
+        ],
+        "path": "13-devops-iac/13.09-gitops-practices",
+        "type": "folder",
+        "name": "13.09-gitops-practices"
+      },
+      {
+        "children": [
+          {
+            "path": "13-devops-iac/13.10-environment-management/13.10.00-overview.md",
+            "type": "file",
+            "name": "13.10.00-overview.md"
+          },
+          {
+            "path": "13-devops-iac/13.10-environment-management/13.10.01-environment-parity.md",
+            "type": "file",
+            "name": "13.10.01-environment-parity.md"
+          },
+          {
+            "path": "13-devops-iac/13.10-environment-management/13.10.02-configuration-management.md",
+            "type": "file",
+            "name": "13.10.02-configuration-management.md"
+          },
+          {
+            "path": "13-devops-iac/13.10-environment-management/13.10.03-secrets-management.md",
+            "type": "file",
+            "name": "13.10.03-secrets-management.md"
+          },
+          {
+            "path": "13-devops-iac/13.10-environment-management/13.10.04-environment-promotion.md",
+            "type": "file",
+            "name": "13.10.04-environment-promotion.md"
+          },
+          {
+            "path": "13-devops-iac/13.10-environment-management/13.10.05-feature-flags.md",
+            "type": "file",
+            "name": "13.10.05-feature-flags.md"
+          }
+        ],
+        "path": "13-devops-iac/13.10-environment-management",
+        "type": "folder",
+        "name": "13.10-environment-management"
+      },
+      {
+        "path": "13-devops-iac/13-overview.md",
+        "type": "file",
+        "name": "13-overview.md"
+      }
+    ],
+    "path": "13-devops-iac",
+    "type": "folder",
+    "name": "13-devops-iac"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "14-testing/14.01-testing-philosophy-strategy/14.01.00-overview.md",
+            "type": "file",
+            "name": "14.01.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.01-testing-philosophy-strategy/14.01.01-testing-pyramid.md",
+            "type": "file",
+            "name": "14.01.01-testing-pyramid.md"
+          },
+          {
+            "path": "14-testing/14.01-testing-philosophy-strategy/14.01.02-test-economics.md",
+            "type": "file",
+            "name": "14.01.02-test-economics.md"
+          },
+          {
+            "path": "14-testing/14.01-testing-philosophy-strategy/14.01.03-risk-based-testing.md",
+            "type": "file",
+            "name": "14.01.03-risk-based-testing.md"
+          },
+          {
+            "path": "14-testing/14.01-testing-philosophy-strategy/14.01.04-testing-quadrants.md",
+            "type": "file",
+            "name": "14.01.04-testing-quadrants.md"
+          },
+          {
+            "path": "14-testing/14.01-testing-philosophy-strategy/14.01.05-test-strategy.md",
+            "type": "file",
+            "name": "14.01.05-test-strategy.md"
+          }
+        ],
+        "path": "14-testing/14.01-testing-philosophy-strategy",
+        "type": "folder",
+        "name": "14.01-testing-philosophy-strategy"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.02-unit-testing/14.02.00-overview.md",
+            "type": "file",
+            "name": "14.02.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.02-unit-testing/14.02.01-test-structure-aaa.md",
+            "type": "file",
+            "name": "14.02.01-test-structure-aaa.md"
+          },
+          {
+            "path": "14-testing/14.02-unit-testing/14.02.02-naming-conventions.md",
+            "type": "file",
+            "name": "14.02.02-naming-conventions.md"
+          },
+          {
+            "path": "14-testing/14.02-unit-testing/14.02.03-assertions.md",
+            "type": "file",
+            "name": "14.02.03-assertions.md"
+          },
+          {
+            "path": "14-testing/14.02-unit-testing/14.02.04-test-doubles.md",
+            "type": "file",
+            "name": "14.02.04-test-doubles.md"
+          },
+          {
+            "path": "14-testing/14.02-unit-testing/14.02.05-code-coverage.md",
+            "type": "file",
+            "name": "14.02.05-code-coverage.md"
+          }
+        ],
+        "path": "14-testing/14.02-unit-testing",
+        "type": "folder",
+        "name": "14.02-unit-testing"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.03-integration-testing-testcontainers/14.03.00-overview.md",
+            "type": "file",
+            "name": "14.03.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.03-integration-testing-testcontainers/14.03.01-testcontainers-fundamentals.md",
+            "type": "file",
+            "name": "14.03.01-testcontainers-fundamentals.md"
+          },
+          {
+            "path": "14-testing/14.03-integration-testing-testcontainers/14.03.02-database-integration-testing.md",
+            "type": "file",
+            "name": "14.03.02-database-integration-testing.md"
+          },
+          {
+            "path": "14-testing/14.03-integration-testing-testcontainers/14.03.03-message-broker-testing.md",
+            "type": "file",
+            "name": "14.03.03-message-broker-testing.md"
+          },
+          {
+            "path": "14-testing/14.03-integration-testing-testcontainers/14.03.04-test-isolation-cleanup.md",
+            "type": "file",
+            "name": "14.03.04-test-isolation-cleanup.md"
+          },
+          {
+            "path": "14-testing/14.03-integration-testing-testcontainers/14.03.05-cicd-integration.md",
+            "type": "file",
+            "name": "14.03.05-cicd-integration.md"
+          }
+        ],
+        "path": "14-testing/14.03-integration-testing-testcontainers",
+        "type": "folder",
+        "name": "14.03-integration-testing-testcontainers"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.04-api-testing/14.04.00-overview.md",
+            "type": "file",
+            "name": "14.04.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.04-api-testing/14.04.01-webapplicationfactory-fundamentals.md",
+            "type": "file",
+            "name": "14.04.01-webapplicationfactory-fundamentals.md"
+          },
+          {
+            "path": "14-testing/14.04-api-testing/14.04.02-http-response-testing.md",
+            "type": "file",
+            "name": "14.04.02-http-response-testing.md"
+          },
+          {
+            "path": "14-testing/14.04-api-testing/14.04.03-authentication-authorization.md",
+            "type": "file",
+            "name": "14.04.03-authentication-authorization.md"
+          },
+          {
+            "path": "14-testing/14.04-api-testing/14.04.04-snapshot-testing.md",
+            "type": "file",
+            "name": "14.04.04-snapshot-testing.md"
+          },
+          {
+            "path": "14-testing/14.04-api-testing/14.04.05-advanced-patterns.md",
+            "type": "file",
+            "name": "14.04.05-advanced-patterns.md"
+          }
+        ],
+        "path": "14-testing/14.04-api-testing",
+        "type": "folder",
+        "name": "14.04-api-testing"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.05-contract-testing/14.05.00-overview.md",
+            "type": "file",
+            "name": "14.05.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.05-contract-testing/14.05.01-consumer-driven-contracts.md",
+            "type": "file",
+            "name": "14.05.01-consumer-driven-contracts.md"
+          },
+          {
+            "path": "14-testing/14.05-contract-testing/14.05.02-consumer-tests-pactnet.md",
+            "type": "file",
+            "name": "14.05.02-consumer-tests-pactnet.md"
+          },
+          {
+            "path": "14-testing/14.05-contract-testing/14.05.03-provider-verification.md",
+            "type": "file",
+            "name": "14.05.03-provider-verification.md"
+          },
+          {
+            "path": "14-testing/14.05-contract-testing/14.05.04-contract-versioning.md",
+            "type": "file",
+            "name": "14.05.04-contract-versioning.md"
+          },
+          {
+            "path": "14-testing/14.05-contract-testing/14.05.05-pact-broker-cicd.md",
+            "type": "file",
+            "name": "14.05.05-pact-broker-cicd.md"
+          }
+        ],
+        "path": "14-testing/14.05-contract-testing",
+        "type": "folder",
+        "name": "14.05-contract-testing"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.06-testing-async-systems/14.06.00-overview.md",
+            "type": "file",
+            "name": "14.06.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.06-testing-async-systems/14.06.01-testing-message-consumers.md",
+            "type": "file",
+            "name": "14.06.01-testing-message-consumers.md"
+          },
+          {
+            "path": "14-testing/14.06-testing-async-systems/14.06.02-verifying-event-publication.md",
+            "type": "file",
+            "name": "14.06.02-verifying-event-publication.md"
+          },
+          {
+            "path": "14-testing/14.06-testing-async-systems/14.06.03-handling-eventual-consistency.md",
+            "type": "file",
+            "name": "14.06.03-handling-eventual-consistency.md"
+          },
+          {
+            "path": "14-testing/14.06-testing-async-systems/14.06.04-test-doubles-messaging.md",
+            "type": "file",
+            "name": "14.06.04-test-doubles-messaging.md"
+          },
+          {
+            "path": "14-testing/14.06-testing-async-systems/14.06.05-testcontainers-messaging.md",
+            "type": "file",
+            "name": "14.06.05-testcontainers-messaging.md"
+          }
+        ],
+        "path": "14-testing/14.06-testing-async-systems",
+        "type": "folder",
+        "name": "14.06-testing-async-systems"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.07-performance-testing/14.07.00-overview.md",
+            "type": "file",
+            "name": "14.07.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.07-performance-testing/14.07.01-test-types-strategy.md",
+            "type": "file",
+            "name": "14.07.01-test-types-strategy.md"
+          },
+          {
+            "path": "14-testing/14.07-performance-testing/14.07.02-load-testing-k6.md",
+            "type": "file",
+            "name": "14.07.02-load-testing-k6.md"
+          },
+          {
+            "path": "14-testing/14.07-performance-testing/14.07.03-nbomber-dotnet.md",
+            "type": "file",
+            "name": "14.07.03-nbomber-dotnet.md"
+          },
+          {
+            "path": "14-testing/14.07-performance-testing/14.07.04-scenario-design.md",
+            "type": "file",
+            "name": "14.07.04-scenario-design.md"
+          },
+          {
+            "path": "14-testing/14.07-performance-testing/14.07.05-baselines-regression.md",
+            "type": "file",
+            "name": "14.07.05-baselines-regression.md"
+          }
+        ],
+        "path": "14-testing/14.07-performance-testing",
+        "type": "folder",
+        "name": "14.07-performance-testing"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.08-chaos-engineering/14.08.00-overview.md",
+            "type": "file",
+            "name": "14.08.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.08-chaos-engineering/14.08.01-principles-philosophy.md",
+            "type": "file",
+            "name": "14.08.01-principles-philosophy.md"
+          },
+          {
+            "path": "14-testing/14.08-chaos-engineering/14.08.02-hypothesis-experiment-design.md",
+            "type": "file",
+            "name": "14.08.02-hypothesis-experiment-design.md"
+          },
+          {
+            "path": "14-testing/14.08-chaos-engineering/14.08.03-fault-injection-tools.md",
+            "type": "file",
+            "name": "14.08.03-fault-injection-tools.md"
+          },
+          {
+            "path": "14-testing/14.08-chaos-engineering/14.08.04-blast-radius-safety.md",
+            "type": "file",
+            "name": "14.08.04-blast-radius-safety.md"
+          },
+          {
+            "path": "14-testing/14.08-chaos-engineering/14.08.05-game-days-production.md",
+            "type": "file",
+            "name": "14.08.05-game-days-production.md"
+          }
+        ],
+        "path": "14-testing/14.08-chaos-engineering",
+        "type": "folder",
+        "name": "14.08-chaos-engineering"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.09-test-data-management/14.09.00-overview.md",
+            "type": "file",
+            "name": "14.09.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.09-test-data-management/14.09.01-test-data-strategies.md",
+            "type": "file",
+            "name": "14.09.01-test-data-strategies.md"
+          },
+          {
+            "path": "14-testing/14.09-test-data-management/14.09.02-data-builders-bogus.md",
+            "type": "file",
+            "name": "14.09.02-data-builders-bogus.md"
+          },
+          {
+            "path": "14-testing/14.09-test-data-management/14.09.03-database-seeding-respawn.md",
+            "type": "file",
+            "name": "14.09.03-database-seeding-respawn.md"
+          },
+          {
+            "path": "14-testing/14.09-test-data-management/14.09.04-data-anonymization.md",
+            "type": "file",
+            "name": "14.09.04-data-anonymization.md"
+          },
+          {
+            "path": "14-testing/14.09-test-data-management/14.09.05-test-data-cicd.md",
+            "type": "file",
+            "name": "14.09.05-test-data-cicd.md"
+          }
+        ],
+        "path": "14-testing/14.09-test-data-management",
+        "type": "folder",
+        "name": "14.09-test-data-management"
+      },
+      {
+        "children": [
+          {
+            "path": "14-testing/14.10-testing-cicd-pipelines/14.10.00-overview.md",
+            "type": "file",
+            "name": "14.10.00-overview.md"
+          },
+          {
+            "path": "14-testing/14.10-testing-cicd-pipelines/14.10.01-test-parallelization.md",
+            "type": "file",
+            "name": "14.10.01-test-parallelization.md"
+          },
+          {
+            "path": "14-testing/14.10-testing-cicd-pipelines/14.10.02-test-reporting.md",
+            "type": "file",
+            "name": "14.10.02-test-reporting.md"
+          },
+          {
+            "path": "14-testing/14.10-testing-cicd-pipelines/14.10.03-flaky-tests.md",
+            "type": "file",
+            "name": "14.10.03-flaky-tests.md"
+          },
+          {
+            "path": "14-testing/14.10-testing-cicd-pipelines/14.10.04-test-optimization.md",
+            "type": "file",
+            "name": "14.10.04-test-optimization.md"
+          },
+          {
+            "path": "14-testing/14.10-testing-cicd-pipelines/14.10.05-quality-gates.md",
+            "type": "file",
+            "name": "14.10.05-quality-gates.md"
+          }
+        ],
+        "path": "14-testing/14.10-testing-cicd-pipelines",
+        "type": "folder",
+        "name": "14.10-testing-cicd-pipelines"
+      },
+      {
+        "path": "14-testing/14-overview.md",
+        "type": "file",
+        "name": "14-overview.md"
+      }
+    ],
+    "path": "14-testing",
+    "type": "folder",
+    "name": "14-testing"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.01-staff-plus-role/15.01.00-overview.md",
+            "type": "file",
+            "name": "15.01.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.01-staff-plus-role/15.01.01-staff-roles-archetypes.md",
+            "type": "file",
+            "name": "15.01.01-staff-roles-archetypes.md"
+          },
+          {
+            "path": "15-leadership/15.01-staff-plus-role/15.01.02-senior-vs-staff.md",
+            "type": "file",
+            "name": "15.01.02-senior-vs-staff.md"
+          },
+          {
+            "path": "15-leadership/15.01-staff-plus-role/15.01.03-scope-impact-multiplier.md",
+            "type": "file",
+            "name": "15.01.03-scope-impact-multiplier.md"
+          },
+          {
+            "path": "15-leadership/15.01-staff-plus-role/15.01.04-glue-work.md",
+            "type": "file",
+            "name": "15.01.04-glue-work.md"
+          },
+          {
+            "path": "15-leadership/15.01-staff-plus-role/15.01.05-promotion-strategies.md",
+            "type": "file",
+            "name": "15.01.05-promotion-strategies.md"
+          }
+        ],
+        "path": "15-leadership/15.01-staff-plus-role",
+        "type": "folder",
+        "name": "15.01-staff-plus-role"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.02-system-design-fundamentals/15.02.00-overview.md",
+            "type": "file",
+            "name": "15.02.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.02-system-design-fundamentals/15.02.01-requirements-gathering.md",
+            "type": "file",
+            "name": "15.02.01-requirements-gathering.md"
+          },
+          {
+            "path": "15-leadership/15.02-system-design-fundamentals/15.02.02-capacity-estimation.md",
+            "type": "file",
+            "name": "15.02.02-capacity-estimation.md"
+          },
+          {
+            "path": "15-leadership/15.02-system-design-fundamentals/15.02.03-component-identification.md",
+            "type": "file",
+            "name": "15.02.03-component-identification.md"
+          },
+          {
+            "path": "15-leadership/15.02-system-design-fundamentals/15.02.04-tradeoff-analysis.md",
+            "type": "file",
+            "name": "15.02.04-tradeoff-analysis.md"
+          },
+          {
+            "path": "15-leadership/15.02-system-design-fundamentals/15.02.05-iterative-design.md",
+            "type": "file",
+            "name": "15.02.05-iterative-design.md"
+          }
+        ],
+        "path": "15-leadership/15.02-system-design-fundamentals",
+        "type": "folder",
+        "name": "15.02-system-design-fundamentals"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.03-distributed-system-patterns/15.03.00-overview.md",
+            "type": "file",
+            "name": "15.03.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.03-distributed-system-patterns/15.03.01-load-balancing.md",
+            "type": "file",
+            "name": "15.03.01-load-balancing.md"
+          },
+          {
+            "path": "15-leadership/15.03-distributed-system-patterns/15.03.02-caching-layers.md",
+            "type": "file",
+            "name": "15.03.02-caching-layers.md"
+          },
+          {
+            "path": "15-leadership/15.03-distributed-system-patterns/15.03.03-database-scaling.md",
+            "type": "file",
+            "name": "15.03.03-database-scaling.md"
+          },
+          {
+            "path": "15-leadership/15.03-distributed-system-patterns/15.03.04-message-queues.md",
+            "type": "file",
+            "name": "15.03.04-message-queues.md"
+          },
+          {
+            "path": "15-leadership/15.03-distributed-system-patterns/15.03.05-rate-limiting.md",
+            "type": "file",
+            "name": "15.03.05-rate-limiting.md"
+          }
+        ],
+        "path": "15-leadership/15.03-distributed-system-patterns",
+        "type": "folder",
+        "name": "15.03-distributed-system-patterns"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.04-architectural-decision-records/15.04.00-overview.md",
+            "type": "file",
+            "name": "15.04.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.04-architectural-decision-records/15.04.01-what-are-adrs.md",
+            "type": "file",
+            "name": "15.04.01-what-are-adrs.md"
+          },
+          {
+            "path": "15-leadership/15.04-architectural-decision-records/15.04.02-adr-structure-templates.md",
+            "type": "file",
+            "name": "15.04.02-adr-structure-templates.md"
+          },
+          {
+            "path": "15-leadership/15.04-architectural-decision-records/15.04.03-writing-effective-adrs.md",
+            "type": "file",
+            "name": "15.04.03-writing-effective-adrs.md"
+          },
+          {
+            "path": "15-leadership/15.04-architectural-decision-records/15.04.04-adr-lifecycle.md",
+            "type": "file",
+            "name": "15.04.04-adr-lifecycle.md"
+          },
+          {
+            "path": "15-leadership/15.04-architectural-decision-records/15.04.05-tooling-repository.md",
+            "type": "file",
+            "name": "15.04.05-tooling-repository.md"
+          }
+        ],
+        "path": "15-leadership/15.04-architectural-decision-records",
+        "type": "folder",
+        "name": "15.04-architectural-decision-records"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.05-technical-writing-documentation/15.05.00-overview.md",
+            "type": "file",
+            "name": "15.05.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.05-technical-writing-documentation/15.05.01-design-document-fundamentals.md",
+            "type": "file",
+            "name": "15.05.01-design-document-fundamentals.md"
+          },
+          {
+            "path": "15-leadership/15.05-technical-writing-documentation/15.05.02-writing-for-audiences.md",
+            "type": "file",
+            "name": "15.05.02-writing-for-audiences.md"
+          },
+          {
+            "path": "15-leadership/15.05-technical-writing-documentation/15.05.03-diagrams-visual-communication.md",
+            "type": "file",
+            "name": "15.05.03-diagrams-visual-communication.md"
+          },
+          {
+            "path": "15-leadership/15.05-technical-writing-documentation/15.05.04-rfc-process-specs.md",
+            "type": "file",
+            "name": "15.05.04-rfc-process-specs.md"
+          },
+          {
+            "path": "15-leadership/15.05-technical-writing-documentation/15.05.05-documentation-maintenance.md",
+            "type": "file",
+            "name": "15.05.05-documentation-maintenance.md"
+          }
+        ],
+        "path": "15-leadership/15.05-technical-writing-documentation",
+        "type": "folder",
+        "name": "15.05-technical-writing-documentation"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.06-code-review-leadership/15.06.00-overview.md",
+            "type": "file",
+            "name": "15.06.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.06-code-review-leadership/15.06.01-code-review-fundamentals.md",
+            "type": "file",
+            "name": "15.06.01-code-review-fundamentals.md"
+          },
+          {
+            "path": "15-leadership/15.06-code-review-leadership/15.06.02-constructive-empathetic-feedback.md",
+            "type": "file",
+            "name": "15.06.02-constructive-empathetic-feedback.md"
+          },
+          {
+            "path": "15-leadership/15.06-code-review-leadership/15.06.03-mentoring-through-review.md",
+            "type": "file",
+            "name": "15.06.03-mentoring-through-review.md"
+          },
+          {
+            "path": "15-leadership/15.06-code-review-leadership/15.06.04-balancing-speed-thoroughness.md",
+            "type": "file",
+            "name": "15.06.04-balancing-speed-thoroughness.md"
+          },
+          {
+            "path": "15-leadership/15.06-code-review-leadership/15.06.05-automation-scaling-review.md",
+            "type": "file",
+            "name": "15.06.05-automation-scaling-review.md"
+          }
+        ],
+        "path": "15-leadership/15.06-code-review-leadership",
+        "type": "folder",
+        "name": "15.06-code-review-leadership"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.07-technical-mentoring/15.07.00-overview.md",
+            "type": "file",
+            "name": "15.07.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.07-technical-mentoring/15.07.01-mentoring-coaching-sponsoring.md",
+            "type": "file",
+            "name": "15.07.01-mentoring-coaching-sponsoring.md"
+          },
+          {
+            "path": "15-leadership/15.07-technical-mentoring/15.07.02-structuring-mentorship.md",
+            "type": "file",
+            "name": "15.07.02-structuring-mentorship.md"
+          },
+          {
+            "path": "15-leadership/15.07-technical-mentoring/15.07.03-actionable-feedback.md",
+            "type": "file",
+            "name": "15.07.03-actionable-feedback.md"
+          },
+          {
+            "path": "15-leadership/15.07-technical-mentoring/15.07.04-growth-opportunities.md",
+            "type": "file",
+            "name": "15.07.04-growth-opportunities.md"
+          },
+          {
+            "path": "15-leadership/15.07-technical-mentoring/15.07.05-measuring-impact.md",
+            "type": "file",
+            "name": "15.07.05-measuring-impact.md"
+          }
+        ],
+        "path": "15-leadership/15.07-technical-mentoring",
+        "type": "folder",
+        "name": "15.07-technical-mentoring"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.08-managing-technical-debt/15.08.00-overview.md",
+            "type": "file",
+            "name": "15.08.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.08-managing-technical-debt/15.08.01-debt-types-sources.md",
+            "type": "file",
+            "name": "15.08.01-debt-types-sources.md"
+          },
+          {
+            "path": "15-leadership/15.08-managing-technical-debt/15.08.02-debt-inventory-tracking.md",
+            "type": "file",
+            "name": "15.08.02-debt-inventory-tracking.md"
+          },
+          {
+            "path": "15-leadership/15.08-managing-technical-debt/15.08.03-communicating-debt.md",
+            "type": "file",
+            "name": "15.08.03-communicating-debt.md"
+          },
+          {
+            "path": "15-leadership/15.08-managing-technical-debt/15.08.04-prioritization-frameworks.md",
+            "type": "file",
+            "name": "15.08.04-prioritization-frameworks.md"
+          },
+          {
+            "path": "15-leadership/15.08-managing-technical-debt/15.08.05-prevention-strategies.md",
+            "type": "file",
+            "name": "15.08.05-prevention-strategies.md"
+          }
+        ],
+        "path": "15-leadership/15.08-managing-technical-debt",
+        "type": "folder",
+        "name": "15.08-managing-technical-debt"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.09-leading-without-authority/15.09.00-overview.md",
+            "type": "file",
+            "name": "15.09.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.09-leading-without-authority/15.09.01-building-credibility.md",
+            "type": "file",
+            "name": "15.09.01-building-credibility.md"
+          },
+          {
+            "path": "15-leadership/15.09-leading-without-authority/15.09.02-creating-alignment.md",
+            "type": "file",
+            "name": "15.09.02-creating-alignment.md"
+          },
+          {
+            "path": "15-leadership/15.09-leading-without-authority/15.09.03-navigating-disagreement.md",
+            "type": "file",
+            "name": "15.09.03-navigating-disagreement.md"
+          },
+          {
+            "path": "15-leadership/15.09-leading-without-authority/15.09.04-driving-change-incrementally.md",
+            "type": "file",
+            "name": "15.09.04-driving-change-incrementally.md"
+          },
+          {
+            "path": "15-leadership/15.09-leading-without-authority/15.09.05-building-coalitions.md",
+            "type": "file",
+            "name": "15.09.05-building-coalitions.md"
+          }
+        ],
+        "path": "15-leadership/15.09-leading-without-authority",
+        "type": "folder",
+        "name": "15.09-leading-without-authority"
+      },
+      {
+        "children": [
+          {
+            "path": "15-leadership/15.10-system-design-interview-prep/15.10.00-overview.md",
+            "type": "file",
+            "name": "15.10.00-overview.md"
+          },
+          {
+            "path": "15-leadership/15.10-system-design-interview-prep/15.10.01-interview-structure-expectations.md",
+            "type": "file",
+            "name": "15.10.01-interview-structure-expectations.md"
+          },
+          {
+            "path": "15-leadership/15.10-system-design-interview-prep/15.10.02-common-patterns-problems.md",
+            "type": "file",
+            "name": "15.10.02-common-patterns-problems.md"
+          },
+          {
+            "path": "15-leadership/15.10-system-design-interview-prep/15.10.03-communication-techniques.md",
+            "type": "file",
+            "name": "15.10.03-communication-techniques.md"
+          },
+          {
+            "path": "15-leadership/15.10-system-design-interview-prep/15.10.04-handling-ambiguity.md",
+            "type": "file",
+            "name": "15.10.04-handling-ambiguity.md"
+          },
+          {
+            "path": "15-leadership/15.10-system-design-interview-prep/15.10.05-practice-strategies.md",
+            "type": "file",
+            "name": "15.10.05-practice-strategies.md"
+          }
+        ],
+        "path": "15-leadership/15.10-system-design-interview-prep",
+        "type": "folder",
+        "name": "15.10-system-design-interview-prep"
+      },
+      {
+        "path": "15-leadership/15-overview.md",
+        "type": "file",
+        "name": "15-overview.md"
+      }
+    ],
+    "path": "15-leadership",
+    "type": "folder",
+    "name": "15-leadership"
+  },
+  {
+    "path": "overview.md",
+    "type": "file",
+    "name": "overview.md"
+  }
+]
