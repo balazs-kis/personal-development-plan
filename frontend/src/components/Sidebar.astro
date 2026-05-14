@@ -1,17 +1,32 @@
 ---
 import { getCollection } from 'astro:content';
+import { buildTree } from '../lib/tree';
+import TreeNode from './TreeNode.astro';
 
+interface Props {
+  activeId?: string;
+}
+
+const { activeId } = Astro.props;
 const entries = await getCollection('materials');
-const sorted = entries.slice().sort((a, b) => a.id.localeCompare(b.id));
+const tree = buildTree(entries);
 ---
 
 <nav class="tree-nav" id="treeNav">
-  {sorted.map((entry) => (
-    <div class="tree-item">
-      <a class="tree-item-header file" href={`/${entry.id}`}>
-        <span class="file-icon">📄</span>
-        <span class="tree-label">{entry.id}</span>
-      </a>
-    </div>
-  ))}
+  <TreeNode nodes={tree} activeId={activeId} />
 </nav>
+
+<script>
+  const nav = document.getElementById('treeNav');
+  if (nav) {
+    nav.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      const header = target.closest('.tree-item-header.folder') as HTMLElement | null;
+      if (!header) return;
+      const children = header.nextElementSibling;
+      const icon = header.querySelector('.tree-icon');
+      children?.classList.toggle('expanded');
+      icon?.classList.toggle('expanded');
+    });
+  }
+</script>

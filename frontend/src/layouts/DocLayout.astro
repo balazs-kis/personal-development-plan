@@ -4,9 +4,10 @@ import '../styles/global.css';
 
 interface Props {
   title?: string;
+  activeId?: string;
 }
 
-const { title = 'Personal Development Plan' } = Astro.props;
+const { title = 'Personal Development Plan', activeId } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -64,7 +65,7 @@ const { title = 'Personal Development Plan' } = Astro.props;
           <input type="text" class="search-input" id="searchInput" placeholder="Search..." />
         </div>
         <div class="sidebar-scroll-wrapper">
-          <Sidebar />
+          <Sidebar activeId={activeId} />
         </div>
       </aside>
 
