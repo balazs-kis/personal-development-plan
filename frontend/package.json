@@ -16,5 +16,8 @@
     "astro": "^6.3.3",
     "svelte": "^5.55.5",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "unist-util-visit": "^5.1.0"
   }
 }
