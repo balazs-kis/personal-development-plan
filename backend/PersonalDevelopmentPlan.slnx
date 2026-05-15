@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="PersonalDevelopmentPlan.Api/PersonalDevelopmentPlan.Api.csproj" />
+  <Project Path="PersonalDevelopmentPlan.Database/PersonalDevelopmentPlan.Database.csproj" />
 </Solution>

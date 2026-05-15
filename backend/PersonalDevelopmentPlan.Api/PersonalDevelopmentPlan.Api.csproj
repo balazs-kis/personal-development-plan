@@ -8,13 +8,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PersonalDevelopmentPlan.Database\PersonalDevelopmentPlan.Database.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,3 +1,5 @@
+using PersonalDevelopmentPlan.Database;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+var connectionString = app.Configuration.GetConnectionString("AppDb")
+    ?? throw new InvalidOperationException("Missing connection string 'AppDb'.");
+
+var migrationResult = DatabaseInitializer.Migrate(connectionString);
+if (!migrationResult.Successful)
+{
+    app.Logger.LogCritical(migrationResult.Error, "Database migration failed.");
+    return 1;
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -34,6 +46,7 @@ app.MapGet("/weatherforecast", () =>
     .WithName("GetWeatherForecast");
 
 app.Run();
+return 0;
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {

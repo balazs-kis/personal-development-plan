@@ -209,3 +209,10 @@ FakesAssemblies/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Local SQLite databases (runtime state, not source)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+PersonalDevelopmentPlan.Api/data/
