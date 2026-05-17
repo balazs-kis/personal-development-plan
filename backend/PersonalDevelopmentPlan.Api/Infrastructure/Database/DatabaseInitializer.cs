@@ -1,7 +1,7 @@
 using DbUp;
 using DbUp.Engine;
 
-namespace PersonalDevelopmentPlan.Database;
+namespace PersonalDevelopmentPlan.Api.Infrastructure.Database;
 
 public static class DatabaseInitializer
 {

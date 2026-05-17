@@ -1,14 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    </PropertyGroup>
+        <UserSecretsId>dcd85b77-5884-42dd-96a3-8b5ed100ae73</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AspNet.Security.OAuth.GitHub" Version="10.0.0" />
+        <PackageReference Include="Dapper" Version="2.1.79" />
+        <PackageReference Include="dbup-sqlite" Version="6.0.4" />
+        <PackageReference Include="FastEndpoints" Version="8.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="10.0.8" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.8" />
     </ItemGroup>
 
     <ItemGroup>
@@ -18,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PersonalDevelopmentPlan.Database\PersonalDevelopmentPlan.Database.csproj" />
+      <EmbeddedResource Include="Infrastructure\Database\Scripts\**\*.sql" />
     </ItemGroup>
 
 </Project>
