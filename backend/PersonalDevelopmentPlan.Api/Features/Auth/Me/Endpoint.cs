@@ -1,8 +1,9 @@
+using System.Security.Claims;
 using FastEndpoints;
 
 namespace PersonalDevelopmentPlan.Api.Features.Auth.Me;
 
-internal sealed record MeResponse(bool Authenticated);
+internal sealed record MeResponse(bool Authenticated, Guid? Id, string? Name, string? Email);
 
 internal sealed class Endpoint : EndpointWithoutRequest<MeResponse>
 {
@@ -14,6 +15,17 @@ internal sealed class Endpoint : EndpointWithoutRequest<MeResponse>
 
     public override Task HandleAsync(CancellationToken ct)
     {
-        return Send.OkAsync(new MeResponse(false), cancellation: ct);
+        var user = HttpContext.User;
+        if (user.Identity?.IsAuthenticated != true)
+        {
+            return Send.OkAsync(new MeResponse(false, null, null, null), cancellation: ct);
+        }
+
+        var idClaim = user.FindFirstValue(ClaimTypes.NameIdentifier);
+        var id = Guid.TryParse(idClaim, out var parsed) ? parsed : (Guid?)null;
+        var name = user.FindFirstValue(ClaimTypes.Name);
+        var email = user.FindFirstValue(ClaimTypes.Email);
+
+        return Send.OkAsync(new MeResponse(true, id, name, email), cancellation: ct);
     }
 }

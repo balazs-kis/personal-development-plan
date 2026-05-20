@@ -9,7 +9,7 @@ internal sealed class GuidAsTextTypeHandler : SqlMapper.TypeHandler<Guid>
     {
         string s => Guid.Parse(s),
         Guid g => g,
-        _ => throw new DataException($"Cannot convert {value?.GetType().Name ?? "null"} to Guid."),
+        _ => throw new DataException($"Cannot convert {value.GetType().Name ?? "null"} to Guid."),
     };
 
     public override void SetValue(IDbDataParameter parameter, Guid value)

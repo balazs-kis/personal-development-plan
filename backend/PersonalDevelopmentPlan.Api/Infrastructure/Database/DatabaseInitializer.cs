@@ -1,12 +1,12 @@
 using DbUp;
-using DbUp.Engine;
 
 namespace PersonalDevelopmentPlan.Api.Infrastructure.Database;
 
-public static class DatabaseInitializer
+internal static class DatabaseInitializer
 {
-    public static DatabaseUpgradeResult Migrate(string connectionString)
+    public static bool Migrate(this WebApplication app)
     {
+        var connectionString = app.Configuration.GetAppDbConnectionString();
         EnsureDirectoryExists(connectionString);
 
         var upgrader = DeployChanges.To
@@ -15,14 +15,19 @@ public static class DatabaseInitializer
             .LogToConsole()
             .Build();
 
-        return upgrader.PerformUpgrade();
+        var result = upgrader.PerformUpgrade();
+        if (!result.Successful)
+        {
+            app.Logger.LogCritical(result.Error, "Database migration failed.");
+            return false;
+        }
+        return true;
     }
 
     private static void EnsureDirectoryExists(string connectionString)
     {
         var builder = new Microsoft.Data.Sqlite.SqliteConnectionStringBuilder(connectionString);
-        var dataSource = builder.DataSource;
-        var dir = Path.GetDirectoryName(Path.GetFullPath(dataSource));
+        var dir = Path.GetDirectoryName(Path.GetFullPath(builder.DataSource));
         if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
         {
             Directory.CreateDirectory(dir);

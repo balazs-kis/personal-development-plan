@@ -1,30 +1,32 @@
 using FastEndpoints;
+using PersonalDevelopmentPlan.Api.Infrastructure.Authentication;
+using PersonalDevelopmentPlan.Api.Infrastructure.Cors;
 using PersonalDevelopmentPlan.Api.Infrastructure.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("AppDb")
-    ?? throw new InvalidOperationException("Missing connection string 'AppDb'.");
-
 builder.Services.AddSingleton(TimeProvider.System);
-builder.Services.AddDatabase(connectionString);
+builder.Services.AddDatabase(builder.Configuration);
+builder.Services.AddAppAuthentication(builder.Configuration);
+builder.Services.AddAppCors(builder.Configuration);
 builder.Services.AddFastEndpoints();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-var migrationResult = DatabaseInitializer.Migrate(connectionString);
-if (!migrationResult.Successful)
+if (!app.Migrate())
 {
-    app.Logger.LogCritical(migrationResult.Error, "Database migration failed.");
     return 1;
 }
 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseCors(PersonalDevelopmentPlan.Api.Infrastructure.Cors.DependencyInjection.DevPolicy);
 }
 
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseFastEndpoints();
 
 app.Run();
