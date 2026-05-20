@@ -16,6 +16,6 @@ internal sealed class Endpoint : EndpointWithoutRequest
     {
         var returnUrl = Query<string>("returnUrl", isRequired: false) ?? "/";
         var props = new AuthenticationProperties { RedirectUri = returnUrl };
-        await Send.ResultAsync(Results.Challenge(props, new[] { DependencyInjection.GoogleScheme }));
+        await Send.ResultAsync(Results.Challenge(props, [DependencyInjection.GoogleScheme]));
     }
 }

@@ -14,9 +14,7 @@ internal static class DependencyInjection
     public const string GoogleScheme = GoogleDefaults.AuthenticationScheme;
     public const string GitHubScheme = GitHubAuthenticationDefaults.AuthenticationScheme;
 
-    public static IServiceCollection AddAppAuthentication(
-        this IServiceCollection services,
-        IConfiguration configuration)
+    public static IServiceCollection AddAppAuthentication(this IServiceCollection services, IConfiguration configuration)
     {
         var keysPath = configuration["DataProtection:KeysPath"]!;
         Directory.CreateDirectory(keysPath);
@@ -103,17 +101,13 @@ internal static class DependencyInjection
 
         using var conn = connFactory.Create();
         var userId = await LoginOrLink.ExecuteAsync(
-            conn, time, provider, providerUserId, email, emailVerified,
-            displayName, avatarUrl, ctx.HttpContext.RequestAborted);
+            conn, time, provider, providerUserId, email, emailVerified, displayName, avatarUrl, ctx.HttpContext.RequestAborted);
 
         var identity = new ClaimsIdentity(CookieScheme);
         identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, userId.ToString()));
-        if (!string.IsNullOrEmpty(displayName))
-            identity.AddClaim(new Claim(ClaimTypes.Name, displayName));
-        if (!string.IsNullOrEmpty(email))
-            identity.AddClaim(new Claim(ClaimTypes.Email, email));
-        if (!string.IsNullOrEmpty(avatarUrl))
-            identity.AddClaim(new Claim("avatar_url", avatarUrl));
+        if (!string.IsNullOrEmpty(displayName)) identity.AddClaim(new Claim(ClaimTypes.Name, displayName));
+        if (!string.IsNullOrEmpty(email)) identity.AddClaim(new Claim(ClaimTypes.Email, email));
+        if (!string.IsNullOrEmpty(avatarUrl)) identity.AddClaim(new Claim("avatar_url", avatarUrl));
 
         ctx.Principal = new ClaimsPrincipal(identity);
     }
