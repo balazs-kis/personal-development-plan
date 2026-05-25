@@ -6,6 +6,7 @@ using PersonalDevelopmentPlan.Api.Infrastructure.Database;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton(TimeProvider.System);
+builder.Services.AddHttpClient();
 builder.Services.AddDatabase(builder.Configuration);
 builder.Services.AddAppAuthentication(builder.Configuration);
 builder.Services.AddAppCors(builder.Configuration);

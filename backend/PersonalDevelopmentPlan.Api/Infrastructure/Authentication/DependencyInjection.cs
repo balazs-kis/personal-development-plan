@@ -52,7 +52,7 @@ internal static class DependencyInjection
                 options.ClientSecret = configuration["Authentication:Google:ClientSecret"]!;
                 options.CallbackPath = "/auth/callback/google";
                 options.SignInScheme = CookieScheme;
-                options.Events.OnCreatingTicket = ctx => ProcessTicketAsync(ctx, "google");
+                options.Events.OnCreatingTicket = ctx => ProcessTicketAsync(ctx, GoogleScheme);
             })
             .AddGitHub(GitHubScheme, options =>
             {
@@ -61,7 +61,7 @@ internal static class DependencyInjection
                 options.CallbackPath = "/auth/callback/github";
                 options.SignInScheme = CookieScheme;
                 options.Scope.Add("user:email");
-                options.Events.OnCreatingTicket = ctx => ProcessTicketAsync(ctx, "github");
+                options.Events.OnCreatingTicket = ctx => ProcessTicketAsync(ctx, GitHubScheme);
             });
 
         services.AddAuthorization();
@@ -70,9 +70,11 @@ internal static class DependencyInjection
 
     private static async Task ProcessTicketAsync(OAuthCreatingTicketContext ctx, string provider)
     {
+        var ct = ctx.HttpContext.RequestAborted;
         var sp = ctx.HttpContext.RequestServices;
         var connFactory = sp.GetRequiredService<IDbConnectionFactory>();
         var time = sp.GetRequiredService<TimeProvider>();
+        var httpFactory = sp.GetRequiredService<IHttpClientFactory>();
 
         var providerUserId = ctx.Identity?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         if (string.IsNullOrWhiteSpace(providerUserId))
@@ -85,23 +87,28 @@ internal static class DependencyInjection
         var displayName = ctx.Identity.FindFirst(ClaimTypes.Name)?.Value;
         var avatarUrl = provider switch
         {
-            "google" => ctx.User.TryGetProperty("picture", out var p) ? p.GetString() : null,
-            "github" => ctx.User.TryGetProperty("avatar_url", out var a) ? a.GetString() : null,
+            GoogleScheme => ctx.User.TryGetProperty("picture", out var p) ? p.GetString() : null,
+            GitHubScheme => ctx.User.TryGetProperty("avatar_url", out var a) ? a.GetString() : null,
             _ => null,
         };
 
-        var emailVerified = provider switch
+        var emailVerified = !string.IsNullOrEmpty(email) && provider switch
         {
-            "google" => ctx.User.TryGetProperty("email_verified", out var ev) && ev.GetBoolean(),
+            GoogleScheme => ctx.User.TryGetProperty("email_verified", out var ev) && ev.GetBoolean(),
             // GitHub only marks a verified email as the user's "primary" email,
             // and the OAuth library returns the primary one when user:email scope is requested.
-            "github" => !string.IsNullOrEmpty(email),
+            GitHubScheme => true,
             _ => false,
         };
 
+        if (string.IsNullOrEmpty(avatarUrl) && emailVerified)
+        {
+            avatarUrl = await GravatarLookup.TryGetUrlAsync(httpFactory.CreateClient(), email!, ct);
+        }
+
         using var conn = connFactory.Create();
         var userId = await LoginOrLink.ExecuteAsync(
-            conn, time, provider, providerUserId, email, emailVerified, displayName, avatarUrl, ctx.HttpContext.RequestAborted);
+            conn, time, provider, providerUserId, email, emailVerified, displayName, avatarUrl, ct);
 
         var identity = new ClaimsIdentity(CookieScheme);
         identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, userId.ToString()));
