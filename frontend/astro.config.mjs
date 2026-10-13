@@ -9,6 +9,11 @@ export default defineConfig({
   integrations: [svelte()],
   markdown: {
     remarkPlugins: [remarkRewriteMdLinks],
+    shikiConfig: {
+      // Emit both themes as CSS variables (no inline colors); global.css picks one per body theme class.
+      themes: { light: 'everforest-light', dark: 'everforest-dark' },
+      defaultColor: false,
+    },
   },
   vite: {
     server: {

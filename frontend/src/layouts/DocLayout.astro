@@ -26,6 +26,14 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
     />
   </head>
   <body class="dark-mode">
+    <script is:inline>
+      // Runs before the rest of the page is parsed, so the saved theme applies without a flash.
+      (function () {
+        var saved = localStorage.getItem('theme');
+        var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.body.className = dark ? 'dark-mode' : 'light-mode';
+      })();
+    </script>
     <header class="header">
       <div class="header-left">
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -79,5 +87,23 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
         </div>
       </main>
     </div>
+
+    <script>
+      function applyTheme(dark: boolean) {
+        document.body.classList.toggle('dark-mode', dark);
+        document.body.classList.toggle('light-mode', !dark);
+      }
+
+      document.getElementById('themeToggle')?.addEventListener('click', () => {
+        const dark = !document.body.classList.contains('dark-mode');
+        applyTheme(dark);
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
+      });
+
+      // Follow OS theme changes until the user picks one explicitly.
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) applyTheme(e.matches);
+      });
+    </script>
   </body>
 </html>

@@ -93,6 +93,10 @@ body::after {
     transition: background-color 0.3s ease;
 }
 
+/* Native controls (scrollbars, inputs) follow the theme */
+body.dark-mode { color-scheme: dark; }
+body.light-mode { color-scheme: light; }
+
 /* Dark theme overlay */
 body.dark-mode::after {
     background-color: rgba(45, 53, 59, 0.50);
@@ -559,6 +563,20 @@ body.light-mode .content {
     line-height: 1.5;
 }
 
+/* Shiki emits both themes as --shiki-dark / --shiki-light variables; pick one per theme.
+   The block background stays on --code-bg so it matches the rest of the palette. */
+body.dark-mode .astro-code,
+body.dark-mode .astro-code span {
+    color: var(--shiki-dark);
+    font-style: var(--shiki-dark-font-style);
+}
+
+body.light-mode .astro-code,
+body.light-mode .astro-code span {
+    color: var(--shiki-light);
+    font-style: var(--shiki-light-font-style);
+}
+
 /* Tables */
 .markdown-body table {
     width: 100%;
@@ -804,6 +822,9 @@ body.light-mode .content {
 }
 
 .user-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
     background: none;
     border: none;
     text-align: left;
@@ -818,6 +839,12 @@ body.light-mode .content {
 
 .user-menu-item:hover {
     background-color: var(--bg-hover);
+}
+
+.user-menu-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
 }
 
 /* Lesson progress bar (top of lesson pages) */
