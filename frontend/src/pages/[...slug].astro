@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import DocLayout from '../layouts/DocLayout.astro';
+import LessonProgress from '../components/LessonProgress.svelte';
 
 export async function getStaticPaths() {
   const entries = await getCollection('materials');
@@ -15,5 +16,6 @@ const { Content } = await render(entry);
 ---
 
 <DocLayout title={entry.data.title ?? entry.id} activeId={entry.id}>
+  <LessonProgress client:only="svelte" slug={entry.id} />
   <Content />
 </DocLayout>

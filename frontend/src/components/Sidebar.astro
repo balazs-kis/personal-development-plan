@@ -17,8 +17,20 @@ const tree = buildTree(entries);
 </nav>
 
 <script>
+  import { initSession, progress } from '../lib/session';
+
   const nav = document.getElementById('treeNav');
   if (nav) {
+    const links = nav.querySelectorAll<HTMLElement>('a[data-path]');
+    progress.subscribe((map) => {
+      for (const link of links) {
+        const lesson = map.get(link.dataset.path!);
+        link.classList.toggle('completed', !!lesson?.completedAt);
+        link.classList.toggle('viewed', !!lesson && !lesson.completedAt && lesson.viewCount > 0);
+      }
+    });
+    initSession();
+
     nav.addEventListener('click', (e) => {
       const target = e.target as HTMLElement;
       const header = target.closest('.tree-item-header.folder') as HTMLElement | null;

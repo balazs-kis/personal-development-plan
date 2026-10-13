@@ -1,5 +1,6 @@
 ---
 import Sidebar from '../components/Sidebar.astro';
+import UserMenu from '../components/UserMenu.svelte';
 import '../styles/global.css';
 
 interface Props {
@@ -56,6 +57,7 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
+        <UserMenu client:only="svelte" />
       </div>
     </header>
 

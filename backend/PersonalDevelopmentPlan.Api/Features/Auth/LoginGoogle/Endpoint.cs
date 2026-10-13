@@ -14,7 +14,7 @@ internal sealed class Endpoint : EndpointWithoutRequest
 
     public override async Task HandleAsync(CancellationToken ct)
     {
-        var returnUrl = Query<string>("returnUrl", isRequired: false) ?? "/";
+        var returnUrl = ReturnUrl.Sanitize(Query<string>("returnUrl", isRequired: false));
         var props = new AuthenticationProperties { RedirectUri = returnUrl };
         await Send.ResultAsync(Results.Challenge(props, [DependencyInjection.GoogleScheme]));
     }
