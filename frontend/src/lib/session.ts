@@ -23,6 +23,8 @@ async function load(): Promise<void> {
   try {
     const user = await api.getMe();
     me.set(user);
+    // Read by DocLayout's inline script on the next page load to size the user menu placeholder.
+    localStorage.setItem('auth-hint', user.authenticated ? 'in' : 'out');
     if (user.authenticated) {
       await refreshProgress();
     }

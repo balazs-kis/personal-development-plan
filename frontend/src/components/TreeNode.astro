@@ -20,7 +20,7 @@ function isAncestor(folderPath: string, id: string | undefined): boolean {
     const expanded = isAncestor(node.path, activeId);
     return (
       <div class="tree-item" style={`padding-left: ${level * 0.5}rem`}>
-        <div class="tree-item-header folder">
+        <div class="tree-item-header folder" data-folder={node.path}>
           <span class:list={['tree-icon', { expanded }]}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="9 18 15 12 9 6"></polyline>

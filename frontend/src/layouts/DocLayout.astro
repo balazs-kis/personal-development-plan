@@ -17,6 +17,13 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+    <!--
+      Every page carries the full ~800-entry sidebar, so the HTML is large and the browser would
+      otherwise paint it in stages (blank frame, sidebar without content, then content). This holds
+      the first paint until <main> is fully parsed; until then the previous page stays on screen.
+      Chromium-only; other browsers ignore it.
+    -->
+    <link rel="expect" href="#content" blocking="render" />
     <link rel="icon" type="image/png" href="/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,6 +39,8 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
         var saved = localStorage.getItem('theme');
         var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
         document.body.className = dark ? 'dark-mode' : 'light-mode';
+        // Last known login state, so the header can reserve the right space for the user menu.
+        document.body.dataset.auth = localStorage.getItem('auth-hint') || 'out';
       })();
     </script>
     <header class="header">
@@ -65,7 +74,16 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
-        <UserMenu client:only="svelte" />
+        <UserMenu client:only="svelte">
+          <!--
+            Shown until the menu has loaded. An invisible copy of whichever control appeared last time
+            (body[data-auth], set in the inline script above), so the header doesn't shift when it loads.
+          -->
+          <div slot="fallback" class="user-menu user-menu-placeholder" aria-hidden="true">
+            <span class="user-menu-trigger user-menu-signin user-menu-placeholder-out">Sign in</span>
+            <span class="user-menu-trigger user-menu-placeholder-in"><span class="user-avatar"></span></span>
+          </div>
+        </UserMenu>
       </div>
     </header>
 
@@ -78,6 +96,7 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
           <Sidebar activeId={activeId} />
         </div>
       </aside>
+      <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
       <main class="content" id="content">
         <div class="content-scroll-wrapper">
@@ -103,6 +122,27 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
       // Follow OS theme changes until the user picks one explicitly.
       window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
         if (!localStorage.getItem('theme')) applyTheme(e.matches);
+      });
+
+      // Mobile menu: the hamburger only shows below 768px, where the sidebar slides in over the content.
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      const menuToggle = document.getElementById('menuToggle');
+
+      function setSidebarOpen(open: boolean) {
+        sidebar?.classList.toggle('open', open);
+        overlay?.classList.toggle('active', open);
+        menuToggle?.setAttribute('aria-expanded', String(open));
+      }
+
+      menuToggle?.addEventListener('click', () => setSidebarOpen(!sidebar?.classList.contains('open')));
+      overlay?.addEventListener('click', () => setSidebarOpen(false));
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && sidebar?.classList.contains('open')) setSidebarOpen(false);
+      });
+      // Growing past the mobile breakpoint with the menu open would leave the overlay covering the page.
+      window.matchMedia('(max-width: 768px)').addEventListener('change', (e) => {
+        if (!e.matches) setSidebarOpen(false);
       });
     </script>
   </body>

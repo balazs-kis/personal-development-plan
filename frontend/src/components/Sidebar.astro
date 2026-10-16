@@ -16,9 +16,133 @@ const tree = buildTree(entries);
   <TreeNode nodes={tree} activeId={activeId} />
 </nav>
 
+<!--
+  Tree behavior: folder toggling, remembered open folders, and search.
+  Inline (not bundled) so it runs while the page is still parsing: restored folders and a
+  remembered search query apply before the first paint instead of popping in afterwards.
+  The search input sits above the tree in DocLayout, so it already exists at this point.
+-->
+<script is:inline>
+  (function () {
+    var EXPANDED_KEY = 'sidebar-expanded'; // localStorage: open folder paths, kept across visits
+    var SEARCH_KEY = 'sidebar-search'; // sessionStorage: query survives clicking into a result
+
+    var nav = document.getElementById('treeNav');
+    var search = document.getElementById('searchInput');
+    if (!nav) return;
+
+    function folderHeaders() {
+      return nav.querySelectorAll('.tree-item-header.folder');
+    }
+
+    function isExpanded(header) {
+      return header.nextElementSibling.classList.contains('expanded');
+    }
+
+    function setExpanded(header, expanded) {
+      header.nextElementSibling.classList.toggle('expanded', expanded);
+      header.querySelector('.tree-icon').classList.toggle('expanded', expanded);
+    }
+
+    function loadExpanded() {
+      try {
+        return JSON.parse(localStorage.getItem(EXPANDED_KEY) || '[]');
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function saveExpanded() {
+      var open = [];
+      folderHeaders().forEach(function (h) {
+        if (isExpanded(h)) open.push(h.dataset.folder);
+      });
+      localStorage.setItem(EXPANDED_KEY, JSON.stringify(open));
+    }
+
+    // Saved folders plus the ancestors of the current lesson (those come pre-expanded from the build,
+    // so the active lesson is always visible even if its folder was collapsed last time).
+    function restoreExpanded() {
+      var saved = loadExpanded();
+      var active = nav.querySelector('a.active');
+      var activePath = active ? active.dataset.path : '';
+      folderHeaders().forEach(function (h) {
+        var path = h.dataset.folder;
+        var isAncestor = activePath.indexOf(path + '/') === 0;
+        setExpanded(h, isAncestor || saved.indexOf(path) !== -1);
+      });
+    }
+
+    function searching() {
+      return !!(search && search.value.trim());
+    }
+
+    // An item stays visible if its own label matches, an ancestor folder matches (so searching
+    // a chapter name shows the whole chapter), or something below it matches. Folders open
+    // whenever they contain a visible item, so every result is on screen without extra clicks.
+    function visit(item, query, ancestorMatches) {
+      var header = item.querySelector(':scope > .tree-item-header');
+      var label = header.querySelector('.tree-label').textContent.toLowerCase();
+      var selfMatches = label.indexOf(query) !== -1;
+      var children = item.querySelector(':scope > .tree-children');
+      var hasVisibleChild = false;
+
+      if (children) {
+        children.querySelectorAll(':scope > .tree-item').forEach(function (child) {
+          if (visit(child, query, ancestorMatches || selfMatches)) hasVisibleChild = true;
+        });
+        setExpanded(header, hasVisibleChild);
+      }
+
+      var visible = selfMatches || ancestorMatches || hasVisibleChild;
+      item.style.display = visible ? '' : 'none';
+      return visible;
+    }
+
+    function applySearch() {
+      var query = search ? search.value.trim().toLowerCase() : '';
+      if (query) {
+        sessionStorage.setItem(SEARCH_KEY, search.value);
+        nav.querySelectorAll(':scope > .tree-item').forEach(function (item) {
+          visit(item, query, false);
+        });
+      } else {
+        sessionStorage.removeItem(SEARCH_KEY);
+        nav.querySelectorAll('.tree-item').forEach(function (item) {
+          item.style.display = '';
+        });
+        restoreExpanded();
+      }
+    }
+
+    nav.addEventListener('click', function (e) {
+      var header = e.target.closest('.tree-item-header.folder');
+      if (!header) return;
+      setExpanded(header, !isExpanded(header));
+      // Folders opened by a search are temporary; only remember manual browsing.
+      if (!searching()) saveExpanded();
+    });
+
+    if (search) {
+      search.value = sessionStorage.getItem(SEARCH_KEY) || '';
+      search.addEventListener('input', applySearch);
+      search.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && search.value) {
+          e.stopPropagation(); // clear the search only; don't also close the mobile sidebar
+          search.value = '';
+          applySearch();
+        }
+      });
+    }
+
+    applySearch();
+  })();
+</script>
+
 <script>
   import { initSession, progress } from '../lib/session';
 
+  // Progress markers: ✓ for completed lessons, • for viewed ones.
   const nav = document.getElementById('treeNav');
   if (nav) {
     const links = nav.querySelectorAll<HTMLElement>('a[data-path]');
@@ -30,15 +154,5 @@ const tree = buildTree(entries);
       }
     });
     initSession();
-
-    nav.addEventListener('click', (e) => {
-      const target = e.target as HTMLElement;
-      const header = target.closest('.tree-item-header.folder') as HTMLElement | null;
-      if (!header) return;
-      const children = header.nextElementSibling;
-      const icon = header.querySelector('.tree-icon');
-      children?.classList.toggle('expanded');
-      icon?.classList.toggle('expanded');
-    });
   }
 </script>

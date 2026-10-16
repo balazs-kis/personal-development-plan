@@ -303,6 +303,7 @@ body.light-mode .sidebar-header {
     transition: all 0.15s ease;
     border-left: 3px solid transparent;
     gap: 0.5rem;
+    text-decoration: none; /* lesson entries are real <a> links; drop the browser's default underline */
 }
 
 .tree-item-header:hover {
@@ -789,6 +790,16 @@ body.light-mode .astro-code span {
     background-color: var(--bg-tertiary);
     color: var(--accent-color);
     font-weight: 700;
+}
+
+/* Placeholder until the menu loads: same classes as the real controls, so the size always matches */
+.user-menu-placeholder {
+    visibility: hidden;
+}
+
+body[data-auth="in"] .user-menu-placeholder-out,
+body:not([data-auth="in"]) .user-menu-placeholder-in {
+    display: none;
 }
 
 .user-menu-dropdown {
