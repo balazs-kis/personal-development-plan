@@ -38,6 +38,7 @@
             {#if $me.name}<strong>{$me.name}</strong>{/if}
             {#if $me.email}<span>{$me.email}</span>{/if}
           </div>
+          <a class="user-menu-item" href="/progress">My progress</a>
           <button class="user-menu-item" onclick={logout}>Sign out</button>
         </div>
       {/if}

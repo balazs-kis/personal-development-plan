@@ -19,7 +19,7 @@ export interface FolderNode {
 
 export type TreeNode = FileNode | FolderNode;
 
-function formatLabel(name: string): string {
+export function formatLabel(name: string): string {
   let label = name.replace(/\.(md|txt)$/i, '');
   label = label.replace(/^[\d.]+-/, '');
   return label

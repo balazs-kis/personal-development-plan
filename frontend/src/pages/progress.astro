@@ -1,0 +1,12 @@
+---
+import { getCollection } from 'astro:content';
+import ProgressPage from '../components/progress/ProgressPage.svelte';
+import DocLayout from '../layouts/DocLayout.astro';
+import { buildCatalog } from '../lib/catalog';
+
+const catalog = buildCatalog(await getCollection('materials'));
+---
+
+<DocLayout title="My progress">
+  <ProgressPage client:only="svelte" catalog={catalog} />
+</DocLayout>
