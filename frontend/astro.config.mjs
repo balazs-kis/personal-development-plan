@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
+import { unified } from '@astrojs/markdown-remark';
 import svelte from '@astrojs/svelte';
 import remarkRewriteMdLinks from './src/lib/remarkRewriteMdLinks.mjs';
 
@@ -8,7 +9,8 @@ import remarkRewriteMdLinks from './src/lib/remarkRewriteMdLinks.mjs';
 export default defineConfig({
   integrations: [svelte()],
   markdown: {
-    remarkPlugins: [remarkRewriteMdLinks],
+    // Astro 7 defaults to the Sätteri processor; stay on remark/rehype to keep the strict .md link rewriter.
+    processor: unified({ remarkPlugins: [remarkRewriteMdLinks] }),
     shikiConfig: {
       // Emit both themes as CSS variables (no inline colors); global.css picks one per body theme class.
       themes: { light: 'everforest-light', dark: 'everforest-dark' },

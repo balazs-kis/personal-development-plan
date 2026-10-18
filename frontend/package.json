@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.22.0"
   },
   "scripts": {
     "dev": "astro dev",
@@ -12,9 +12,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/svelte": "^8.1.1",
-    "astro": "^6.3.3",
-    "svelte": "^5.55.5",
+    "@astrojs/markdown-remark": "^7.3.3",
+    "@astrojs/svelte": "^9.1.0",
+    "astro": "^7.4.0",
+    "svelte": "^5.57.2",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
