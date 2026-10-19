@@ -18,10 +18,10 @@ const { title = 'Personal Development Plan', activeId } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <!--
-      Every page carries the full ~800-entry sidebar, so the HTML is large and the browser would
-      otherwise paint it in stages (blank frame, sidebar without content, then content). This holds
-      the first paint until <main> is fully parsed; until then the previous page stays on screen.
-      Chromium-only; other browsers ignore it.
+      The ~800-entry sidebar is loaded by a blocking script (/sidebar.js), and without this the browser
+      could paint in stages (header first, then the sidebar and content). This holds the first paint
+      until <main> is fully parsed, which is after the sidebar script has run; until then the previous
+      page stays on screen. Chromium-only; other browsers ignore it.
     -->
     <link rel="expect" href="#content" blocking="render" />
     <link rel="icon" type="image/png" href="/icon.png" />

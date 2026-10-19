@@ -1,19 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
-import { buildTree } from '../lib/tree';
-import TreeNode from './TreeNode.astro';
+import { sidebarScript } from '../lib/sidebarScript';
 
 interface Props {
   activeId?: string;
 }
 
 const { activeId } = Astro.props;
-const entries = await getCollection('materials');
-const tree = buildTree(entries);
+const { url } = await sidebarScript();
 ---
 
-<nav class="tree-nav" id="treeNav">
-  <TreeNode nodes={tree} activeId={activeId} />
+<!--
+  The tree markup comes from the shared, cached /sidebar.js (see lib/sidebarScript.ts). It's a plain
+  blocking script on purpose: parsing waits for it, so the tree is in the DOM before the script below
+  runs, and the render hold in DocLayout keeps the page from painting without it.
+-->
+<nav class="tree-nav" id="treeNav" data-active={activeId}>
+  <script is:inline src={url}></script>
 </nav>
 
 <!--
@@ -60,12 +62,16 @@ const tree = buildTree(entries);
       localStorage.setItem(EXPANDED_KEY, JSON.stringify(open));
     }
 
-    // Saved folders plus the ancestors of the current lesson (those come pre-expanded from the build,
-    // so the active lesson is always visible even if its folder was collapsed last time).
+    // The shared tree markup has no per-page state; mark the current lesson here.
+    var activePath = nav.dataset.active || '';
+    nav.querySelectorAll('a[data-path]').forEach(function (a) {
+      if (a.dataset.path === activePath) a.classList.add('active');
+    });
+
+    // Saved folders plus the ancestors of the current lesson, so the active lesson is always visible
+    // even if its folder was collapsed last time.
     function restoreExpanded() {
       var saved = loadExpanded();
-      var active = nav.querySelector('a.active');
-      var activePath = active ? active.dataset.path : '';
       folderHeaders().forEach(function (h) {
         var path = h.dataset.folder;
         var isAncestor = activePath.indexOf(path + '/') === 0;

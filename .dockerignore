@@ -1,4 +1,4 @@
-﻿**/.dockerignore
+**/.dockerignore
 **/.env
 **/.git
 **/.gitignore
@@ -22,4 +22,9 @@
 **/secrets.dev.yaml
 **/values.dev.yaml
 LICENSE
-README.md
+README.md**/dist
+**/.astro
+**/data
+.claude
+site
+tools
