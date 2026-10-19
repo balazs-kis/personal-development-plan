@@ -11,7 +11,8 @@ services:
     ports:
       # Loopback only: Caddy on the same host is the only way in. The app trusts X-Forwarded-* headers,
       # so this port must never be reachable from outside.
-      - "127.0.0.1:8080:8080"
+      # Host port 47820 -> the app's port 8080 inside the container.
+      - "127.0.0.1:47820:8080"
     volumes:
       - pdp-data:/app/data
     secrets:
