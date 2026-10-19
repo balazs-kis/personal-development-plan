@@ -1,2 +1,4 @@
 # AI related ignores
 .claude/
+# Server-side secrets for docker compose (deploy/compose.yaml)
+deploy/secrets/

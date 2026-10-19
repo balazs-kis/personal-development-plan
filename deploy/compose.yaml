@@ -1,0 +1,37 @@
+# Run on the server from this directory:  docker compose up -d
+# Update to the newest image:              docker compose pull && docker compose up -d
+# The image is built by GitHub Actions (.github/workflows/docker.yml); it's public, so no login is needed.
+# Secrets go in ./secrets/, one file per setting; see the secrets section below.
+
+services:
+  pdp:
+    # :latest follows main; pin a :sha-xxxxxxx tag instead to stay on (or roll back to) a specific build.
+    image: ghcr.io/balazs-kis/personal-development-plan:latest
+    restart: unless-stopped
+    ports:
+      # Loopback only: Caddy on the same host is the only way in. The app trusts X-Forwarded-* headers,
+      # so this port must never be reachable from outside.
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - pdp-data:/app/data
+    secrets:
+      - Authentication__Google__ClientId
+      - Authentication__Google__ClientSecret
+      - Authentication__GitHub__ClientId
+      - Authentication__GitHub__ClientSecret
+
+volumes:
+  pdp-data:
+
+# Mounted at /run/secrets/<name>; the file name is the config key with __ for nesting.
+# Without Swarm these are plain read-only bind mounts, so the files must be readable by the
+# container's user (UID 1654):  sudo chown 1654:1654 secrets/* && sudo chmod 400 secrets/*
+secrets:
+  Authentication__Google__ClientId:
+    file: ./secrets/Authentication__Google__ClientId
+  Authentication__Google__ClientSecret:
+    file: ./secrets/Authentication__Google__ClientSecret
+  Authentication__GitHub__ClientId:
+    file: ./secrets/Authentication__GitHub__ClientId
+  Authentication__GitHub__ClientSecret:
+    file: ./secrets/Authentication__GitHub__ClientSecret

@@ -32,5 +32,9 @@ COPY --from=frontend /src/frontend/dist ./wwwroot
 # Owned by the app user so a fresh named volume inherits that ownership.
 COPY --from=backend --chown=$APP_UID:$APP_UID /app/data ./data
 VOLUME /app/data
+# Always runs behind a reverse proxy (Caddy) that terminates TLS: trust its X-Forwarded-For/-Proto,
+# so OAuth callback URLs are https and cookies get the Secure flag. Only safe because the container
+# port is never published publicly (see deploy/compose.yaml).
+ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "PersonalDevelopmentPlan.Api.dll"]

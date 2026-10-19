@@ -6,6 +6,10 @@ using PersonalDevelopmentPlan.Api.Infrastructure.StaticSite;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Secrets mounted as files (Docker/compose secrets), one per setting, named with __ for nesting:
+// /run/secrets/Authentication__Google__ClientSecret -> Authentication:Google:ClientSecret.
+builder.Configuration.AddKeyPerFile("/run/secrets", optional: true);
+
 builder.Services.AddSingleton(TimeProvider.System);
 builder.Services.AddHttpClient();
 builder.Services.AddDatabase(builder.Configuration);
